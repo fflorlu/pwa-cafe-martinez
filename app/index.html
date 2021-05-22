@@ -12,14 +12,14 @@
     <title>Café Martinez</title>
 </head>
 <body>
+    <!--home-->
     <div data-role="page" id="home">
-            <!--menu home-->
             <div data-role="panel" id="menu" 
                 data-display=”reveal”
                 data-position-fixed="true">
+
                 <div class="profile">
-                    <img src="imagenes/cafe-menu.png" alt="Icono de un café con leche" id="logoMenu"/>
-                
+                    <img src="imagenes/cafe-menu.png" alt="Icono de un café con leche" class="logoMenu"/>
                 </div>
     
                 <div data-role="controlgroup">
@@ -33,7 +33,7 @@
 
             <div data-role="header" data-position="fixed" data-theme="c">
                 <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez"></h1>
-                <a href="#menu"
+                <a href="#menu" class="ui-content"
                     data-role="open"
                     data-icon="menu"
                     data-iconpos="notext"
@@ -41,24 +41,24 @@
             </div>
     
     <!-- ** content home ** -->
-    <div data-role="main" class="ui-content">
-        <div class="textCenter">
-            <img src="/imagenes/patron-cafe.png" alt="Patrón de cafeteras" id="bannerHome">
+    <div data-role="main" class="ui-content p0">
+        <img src="/imagenes/patron-cafe.png" alt="Patrón de cafeteras" id="bannerHome">
+        <div class="textCenter m20">
             <h1>Nuestro café es único</h1>
             <p>Seleccionamos la mejor calidad para tu paladar</p>
             <img src="/imagenes/banner-home-cafe-con-leche.png" alt="">
         </div>
 
-        <div class="textCenter">
+        <div class="textCenter m20">
             <h3>Los mejores granos de café del mercado</h3>
             <img src="/imagenes/cafe-banner-proceso.png" alt="Banner mostrando el proceso del café">
             
             <h3 class="colorGreen">Encontrá tu Café Martínez más cercano</h2>
-            <a href="#tiendas" data-role="button">Ver tiendas</a>
+            <a href="#tiendas" data-role="button" data-theme="c" class="btn">Ver tiendas</a>
         </div>
         
-        <div class="bgMano">
-            <div class="textRight textClubMartinez">
+        <div class="bgMano m20">
+            <div class="textRight">
                 <h3>Unite a Club Martínez</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                     Tempore quae, ipsum sunt perferendis, quidem mollitia obcaecati 
@@ -66,8 +66,96 @@
                     adipisci suscipit at necessitatibus culpa placeat.</p>
             </div>
         </div>
-
     </div>
 </div>
+    <!--/home-->
+
+    <!--tiendas-->
+    <div data-role="page" id="tiendas">
+        <div data-role="panel" id="menu2" 
+            data-display=”push”
+            data-position-fixed="true">
+            <div class="profile">
+                <img src="imagenes/cafe-menu.png" alt="Icono de un café con leche" class="logoMenu"/>
+            </div>
+
+            <div data-role="controlgroup">
+                <a href="#home" data-role="button">Home</a>
+                <a href="#tiendas" data-role="button">Tiendas</a>
+                <a href="#quienessomos" data-role="button">¿Quiénes somos?</a>
+                <a href="#baristaencasa" data-role="button">Barista en casa</a>
+                <a href="#sumateanosotros" data-role="button">Sumate a nosotros </a>
+            </div>
+        </div>
+
+        <div data-role="header" data-position="fixed" data-theme="c">
+            <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez"></h1>
+            <a href="#menu2"
+                data-role="open"
+                data-icon="menu"
+                data-iconpos="notext"
+            >Abrir panel</a>
+        </div>
+
+        <div data-role="main" class="ui-content p0">
+            <h1 class="textCenter colorGreen">Tiendas</h1>
+            <img src="imagenes/tiendas-cafe-martinez.jpg" alt="Cartel de una tienda de Café Martínez">
+            
+            <div data-role="collapsible-set"
+            data-iconpos="left" 
+            data-collapsed-icon="carat-d" 
+            data-expanded-icon="carat-u"
+            class="m20">
+
+             <div data-role="collapsible" data-collapsed="false" class="collapsible">
+                <h4>Abasto Shopping</h4>
+                <p>Av. Corrientes, 3301 - CABA</p>
+                <p>Lunes a Domingos de 08:00 a 21:00 hs.</p>
+              </div>
+
+              <div data-role="collapsible" data-collapsed="true" class="collapsible">
+                <h4>Av Corrientes 3799</h4>
+                <p>Av. Corrientes, 3799 - CABA</p>
+                <p>Lunes a Viernes 7:30 a 21 hs.</p>
+              </div>
+
+              <div data-role="collapsible" data-collapsed="true" class="collapsible">
+                <h4>Hospital Italiano</h4>
+                <p>Teniente Gral. Juan D. Perón, 4169 - CABA</p>
+                <p>Lunes a Domingos de 08:00 a 20:00 hs.</p>
+              </div>
+
+              <div data-role="collapsible" data-collapsed="true">
+                <h4>Callao</h4>
+                <p>Av. Callao, 498 - CABA</p>
+                <p>Lunes a Viernes: 08:00 a 20:00 hs. Sábados: 09:30 a 20:00hs.</p>
+              </div>
+
+             <div data-role="collapsible" data-collapsed="true">
+                <h4>Virrey del Pino</h4>
+                <p>Virrey del Pino, 2765 - CABA</p>
+                <p>Lunes a Domingos de 08:00 a 20:00 hs.</p>
+              </div>
+
+              <div data-role="collapsible" data-collapsed="true">
+                <h4>Village Caballito</h4>
+                <p>Av. Rivadavia, 5071 - CABA</p>
+                <p>Lunes a Domingos de 10:00 a 22:00 hs.</p>
+              </div>
+              
+              <div data-role="collapsible" data-collapsed="true">
+                <h4>Ciudad Jardín</h4>
+                <p>Boulervard General San Martin, 2910 - Ciudad Jardín</p>
+                <p>Lunes a Domingos de 8:30 a 22:00 hs.</p>
+              </div>
+
+              <div data-role="collapsible" data-collapsed="true">
+                <h4>Tortugas Open Mall</h4>
+                <p>Ruta Panamericana Km 36,5 - Garin</p>
+                <p>Lunes a Domingos de 10hs a 21hs.</p>
+              </div>
+            </div>
+
+        </div>
 </body>
 </html>

@@ -6,11 +6,8 @@ img{
 
 #bannerHome{
     top: 0px;
-}
-#logoMenu{
-    width: 60px;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    left: 0px;
+    right: 0px;
 }
 
 .textCenter{
@@ -18,16 +15,38 @@ img{
 }
 
 .bgMano{
-    background-image: url(/imagenes/bg-mano.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: left;
 }
 .textRight{
     text-align: right;
 }
 .colorGreen{
-    color: #39846e;
+    color: #24614f;
 }
-.textClubMartinez{
-    width: 70%;
+
+.m0{
+    margin: 0px;
+}
+
+.p0{
+    padding: 0px;
+}
+
+.m20{
+    margin: 20px;
+}
+
+/*Buttons*/
+.btn{
+    max-width: 80%;
+    margin: 0 auto
+}
+
+/* Menu */
+.logoMenu{
+    width: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
