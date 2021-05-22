@@ -17,6 +17,14 @@ img{
     text-align: center;
 }
 
-/*h1{
+.bgMano{
+    background-image: url(/imagenes/bg-mano.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.textRight{
+    text-align: right;
+}
+.colorGreen{
     color: #39846e;
-}*/
+}
