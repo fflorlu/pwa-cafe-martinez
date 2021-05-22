@@ -1,0 +1,223 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p, a, li, h1, h2, h3, h4 {
+    color: #07130F;
+}
+
+p, a, li {
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*Bg-color*/
+.bg-green {
+    background-color: #F1F9F6;
+}
+
+.bg-gray {
+    background-color: #E4E7E6;
+}
+
+.bg-ligth-gray {
+    background-color: FCFCFC;
+}
+
+.bg-dark-green{
+    background-color: #07130F;
+}
+
+/*Nanvar*/
+#logo{
+    width: 134px;
+    height: 50px;
+    font-size: 0;
+    background: url(../imagenes/cafe-martinez-logo.png);
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    left: calc(50% - 67px);
+}
+
+#clubMartinez {
+    background-image: url(../imagenes/bg-mano.png);
+    background-position-x: center;
+    background-size: contain;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+
+.bg-header{
+    background-color: white;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+
+/*Nanvarend*/
+#home {
+    background-image: url(../imagenes/bg-section-1.png);
+    height: 100vh;
+    background-size: contain;
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+
+.h100{
+    height: 100vh;
+}
+
+.aling-center {
+    display: table-cell;
+    vertical-align: middle
+}
+
+.card{
+    max-width: 100%;
+    padding: 20px;
+    margin: 8px;
+}
+
+.card-producto {
+    border: none;
+    max-width: 100%;
+}
+
+img{
+    max-width:100%;
+    display: block;
+    margin: 0 auto;
+}
+#banner{
+   margin: 0px;
+   background-color: rgb(240, 240, 240);
+   padding: 20px 0px;
+}
+
+.bannerimg{
+    margin-top: 20px;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+.subtitulo {
+    font-size: 25px;
+}
+.quienessomos{
+    background-image: url(/imagenes/bg-quienessomos.png);
+    background-size: cover;
+}
+.quienessomos img{
+    border-radius: 50%;
+    padding: 0px 5px 0px 5px !important;
+}
+
+.float-left{
+    display: flex;
+    float: left;
+}
+
+/* LINKS */
+a{
+    font-weight: 600;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(177, 163, 163);
+}
+a:visited{
+    color: rgb(21, 21, 21);
+}
+
+/*Buttons*/
+.btn-collapse {
+    font-weight: 500;
+    line-height: 1.2;
+    cursor: pointer;
+    background-color: #0000;
+    border: none;
+    padding: 0rem;
+    font-size: calc(1.3rem + 0.6vw);
+}
+
+/*Tabs*/
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+    border-radius: 1rem 1rem 0rem 0rem;
+    background-color: #EEF1F0;
+    border: 1px solid;
+    border-color: #0000;
+    color: #8D8D8D;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #fff;
+    background-color: #39846e;
+    border-radius: 1rem 1rem 0rem 0rem;
+    border-color: #0000;
+}
+
+.nav-link:hover, .nav-link:focus {
+    border-radius: 1rem 1rem 0rem 0rem;
+    border-color: #0000;
+    isolation: isolate;
+    color: #ffff;
+    background-color: #24614f;
+}
+
+div#myTabContent {
+    border: 1px solid #8D8D8D;
+    border-radius: 0rem 1rem 1rem 1rem;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*Footer*/
+ul{
+    list-style-type: none;
+}
+.material-icons{
+    font-size: 30px !important;
+}
+
+footer li{
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .card{
+        max-width: 14rem;
+        padding: 20px;
+        margin: 8px;
+    }
+
+    .quienessomos img{
+        max-width: 40%;
+        padding: 0px 30px;
+    }
+    .quienessomos{
+        padding: 10px;
+        
+    }
+
+}
+
+@media (min-width: 1366px) {
+    .card{
+        max-width: 18rem;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+}

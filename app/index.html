@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jqm/jquery.mobile-1.4.5.css">
+    <script src="jqm/jquery-1.12.3.min.js"></script>
+    <script src="jqm/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="jqm/mitema.css">
+    <link rel="stylesheet" href="jqm/estilos.css">
+    <title>Café Martinez</title>
+</head>
+<body>
+    <div data-role="page" id="home">
+            <!--menu home-->
+            <div data-role="panel" id="menu" 
+                data-display=”reveal”
+                data-position-fixed="true">
+                <div class="profile">
+                    <img src="imagenes/cafe-menu.png" alt="Icono de un café con leche" id="logoMenu"/>
+                
+                </div>
+    
+                <div data-role="controlgroup">
+                    <a href="#home" data-role="button">Home</a>
+                    <a href="#tiendas" data-role="button">Tiendas</a>
+                    <a href="#quienessomos" data-role="button">¿Quiénes somos?</a>
+                    <a href="#baristaencasa" data-role="button">Barista en casa</a>
+                    <a href="#sumateanosotros" data-role="button">Sumate a nosotros </a>
+                </div>
+            </div>
+
+            <div data-role="header" data-position="fixed" data-theme="c">
+                <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez"></h1>
+                <a href="#menu"
+                    data-role="open"
+                    data-icon="menu"
+                    data-iconpos="notext"
+                >Abrir panel</a>
+            </div>
+    
+    <!-- ** content home ** -->
+    <div data-role="main" class="ui-content">
+        <div class="textCenter">
+            <img src="/imagenes/patron-cafe.png" alt="Patrón de cafeteras" id="bannerHome">
+            <h1>Nuestro café es único</h1>
+            <p>Seleccionamos la mejor calidad para tu paladar</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
