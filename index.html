@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
     <!--header-->
     <header class="container-fluid bg-header py-2 sticky-top">
         <a href="#home">
-            <h1 id="logo"> Cafe Martinez</h1>
+            <span id="logo"> Cafe Martinez</span>
         </a>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -52,9 +52,12 @@
         <div class="container-fluid">
 
             <div class="row">
-                <div class="col-md-6 p-0">
+                <div class="col-12 col-md-6 p-0 d-block d-sm-none">
+                    <img src="imagenes/mobile-bg.png" alt="taza con frase cafe martinez">
+                </div>
+                <div class="col-12 col-md-6 p-0 d-none d-sm-none d-md-block">
                     <div class="p-5 text-center justify-content-center aling-center h100">
-                        <h1>Hola Flor</h1>
+                        <h1>Nuestro café es único</h1>
                         <p class="subtitulo mt-5">Seleccionamos la mejor calidad para tu paladar</p>
                     </div>
                 </div>
@@ -69,62 +72,79 @@
     </section>
 
     <!-- content tiendas  -->
-    <section class="container-fluid mt-5 bg-green h100 p-5" id="tiendas">
+    <section class="container-fluid bg-green h100 p-5" id="tiendas">
         <h2 class="text-center fw-bold">Nuestras Tiendas</h2>
-        <div class="container d-none d-sm-none d-md-block p-5">
+        <div class="d-none d-sm-none d-md-block mt-5">
             <div class="row justify-content-center p-4 p-md-0">
-                <div class="card col-12 col-md-3">
-                    <h3 class="card-title">Abasto Shopping</h3>
+                <div class="card col-12 col-md">
+                    <h3 class="card-title"><span class="material-icons">
+                            place
+                        </span>Abasto Shopping</h3>
                     <p class="card-text">Av. Corrientes, 3301 - CABA</p>
                     <p class="card-text">Lunes a Domingos de 08:00 a 21:00 hs.</p>
                     <a href="https://goo.gl/maps/XsoKDL3LneveJubo9" class="card-link" target="_blank">Ver mapa</a>
                 </div>
 
-                <div class="card col-12 col-md-3">
-                    <h3 class="card-title">Av Corrientes 3799</h3>
+                <div class="card col-12 col-md">
+                    <h3 class="card-title"><span class="material-icons">
+                            place
+                        </span>Av Corrientes 3799</h3>
                     <p class="card-text">Av. Corrientes, 3799 - CABA</p>
                     <p class="card-text">Lunes a Viernes 7:30 a 21 hs</p>
                     <a href="https://goo.gl/maps/rUUgoYyyTKfdpZPq9" class="card-link" target="_blank">Ver mapa</a>
                 </div>
 
-                <div class="card col-12 col-md-3">
-                    <h3 class="card-title">Hospital Italiano</h3>
-                    <p class="card-text">Teniente Gral. Juan D. Perón, 4169 - CABA</p>
+                <div class="card col-12 col-md">
+                    <h3 class="card-title"><span class="material-icons">
+                            place
+                        </span>Hospital Italiano</h3>
+                    <p class="card-text">Gral. Perón, 4169 - CABA</p>
                     <p class="card-text">Lunes a Domingos de 08:00 a 20:00 hs.</p>
                     <a href="https://goo.gl/maps/ZoZZUix2DzjSJYrm9" class="card-link" target="_blank">Ver mapa</a>
                 </div>
 
-                <div class="card col-12 col-md-3 ">
-                    <h3 class="card-title">Callao</h3>
+                <div class="card col-12 col-md ">
+                    <h3 class="card-title"><span class="material-icons">
+                            place
+                        </span>Callao</h3>
                     <p class="card-text">Av. Callao, 498 - CABA</p>
-                    <p class="card-text">Lunes a Viernes: 08:00 a 20:00 hs. Sábados: 09:30 a 20:00hs.</p>
+                    <p class="card-text">Lunes a Viernes: 08:00 a 20:00 hs.</p>
                     <a href="https://goo.gl/maps/NFNdqfNB5LpHg4Fj9" class="card-link" target="_blank">Ver mapa</a>
                 </div>
-
-                <div class="card col-12 col-md-3 ">
-                    <h3 class="card-title">Virrey del pino</h3>
+            </div>
+            <div class="row justify-content-center p-4 p-md-0">
+                <div class="card col-12 col-md ">
+                    <h3 class="card-title"><span class="material-icons">
+                            place
+                        </span>Virrey del pino</h3>
                     <p class="card-text">Virrey del Pino, 2765 - CABA</p>
                     <p class="card-text">Lunes a Domingos de 08:00 a 20:00 hs.</p>
                     <a href="https://goo.gl/maps/NFNdqfNB5LpHg4Fj9" class="card-link" target="_blank">Ver mapa</a>
                 </div>
 
-                <div class="card col-12 col-md-3 ">
-                    <h3 class="card-title">Village Caballito</h3>
+                <div class="card col-12 col-md ">
+                    <h3 class="card-title"><span class="material-icons">
+                            place
+                        </span>Village Caballito</h3>
                     <p class="card-text">Av. Rivadavia, 5071 - CABA</p>
                     <p class="card-text">Lunes a Domingos de 10:00 a 22:00 hs.</p>
                     <a href="https://goo.gl/maps/NFNdqfNB5LpHg4Fj9" class="card-link" target="_blank">Ver mapa</a>
                 </div>
 
-                <div class="card col-12 col-md-3 ">
-                    <h3 class="card-title">Ciudad Jardin</h3>
-                    <p class="card-text">Boulervard General San Martin, 2910 - Ciudad Jardín</p>
+                <div class="card col-12 col-md ">
+                    <h3 class="card-title"><span class="material-icons">
+                            place
+                        </span>Ciudad Jardin</h3>
+                    <p class="card-text">San Martin, 2910 - Ciudad Jardín</p>
                     <p class="card-text">Lunes a Domingos de 8:30 a 22:00 hs.</p>
                     <a href="https://goo.gl/maps/NFNdqfNB5LpHg4Fj9" class="card-link" target="_blank">Ver mapa</a>
                 </div>
 
-                <div class="card col-12 col-md-3 ">
-                    <h3 class="card-title">Tortugas Open Mall</h3>
-                    <p class="card-text">Ruta Panamericana Km 36,5 - Garin</p>
+                <div class="card col-12 col-md ">
+                    <h3 class="card-title"><span class="material-icons">
+                            place
+                        </span>Tortugas Open Mall</h3>
+                    <p class="card-text">Pan. Km 36,5 - Garin</p>
                     <p class="card-text">Lunes a Domingos de 10hs a 21hs.</p>
                     <a href="https://goo.gl/maps/NFNdqfNB5LpHg4Fj9" class="card-link" target="_blank">Ver mapa</a>
                 </div>
@@ -281,11 +301,23 @@
         </div>
     </section>
 
-    <img src="imagenes/banner-home-proceso-cafe.jpg" alt="Imagen que muestra diferentes molidos de cafe"
-        class="bannerImg">
+    <!--Content menu-->
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-6 d-none d-sm-none d-md-block " id="menusinprecio"></div>
+            <div class="col-12 p-0 d-block d-sm-none">
+                <img src="imagenes/menu.jpg" alt="menu banner">
+            </div>
+            <div class="p-4 p-md-5 col-12 col-md-6 bg-dark justify-content-center text-center">
+                <a class="btn-fantasma" role="button" href="imagenes/MENUSINPRECIO.pdf" download="proposed_file_name">
+                    Descargar nuestro menu
+                </a>
+            </div>
+        </div>
+    </section>
 
     <!-- content quienes somos -->
-    <section class="container mt-5" id="quienesSomos">
+    <section class="container mt-5 h100" id="quienesSomos">
         <h2 class="text-center fw-bold">¿Quiénes somos?</h2>
         <hr>
         <div class="row m-0">
@@ -310,17 +342,20 @@
         </div>
     </section>
     <!--Content club martinez-->
-    <section id="clubMartinez" class="h100 bg-green">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-6 bg-mano"></div>
-                <div class="col-12 col-md-6">
-                    <div class="p-5 justify-content-center aling-center h100">
-                    <h2 class="text-center fw-bold">Club Martinez</h2>
+
+    <section id="clubMartinez" class="container-fluid h100 bg-green">
+        <div class="row">
+            <div class="col-6 col-md-none d-sm-none d-md-block"></div>
+            <div class="col-12 col-md-6">
+                <div class="p-0 p-md-5 justify-content-center aling-center">
+                    <h2 class="text-center fw-bold">Club Cafe Martinez</h2>
                     <p class="subtitulo mt-5 bold">Subtitulo</p>
-                    <p class="text-left">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque excepturi porro, iste cumque
-                        animi ea ducimus eos odio doloribus odit vero? Obcaecati aspernatur ipsa sunt incidunt fugiat
-                        omnis sed nostrum!</p>
+                    <p class="text-left">Descarga nuestra APP, regístrate y gana por disfrutar.
+                        También podes hacer tu pedido de cafetería a la sucursal más cercana a través de nuestra APP
+                        para delivery o retiro en tienda.</p>
+                    <div class="d-md-flex mt-5">
+                        <img src="imagenes/appstore.png" class="logo-store" alt="apple store">
+                        <img src="imagenes/playstore.png" class="logo-store mt-3 mt-md-0" alt="play store">
                     </div>
                 </div>
             </div>
@@ -329,26 +364,27 @@
     <!-- content barista en casa -->
     <section class="container mt-5" id="baristaencasa">
         <h2 class="text-center fw-bold">Barista en casa</h2>
-        <p class="text-center">Descubrí nuestra línea exclusiva para disfrutar en casa. Consegui cada uno de los
+        <p class="text-left text-md-center">Descubrí nuestra línea exclusiva para disfrutar en casa. Consegui cada uno
+            de los
             productos en nuestras
             tiendas.</p>
         <div class="container mt-5 mb-5">
             <ul class="nav nav-tabs col-12" id="myTab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#cafe" role="tab"
-                        aria-controls="home" aria-selected="true">Café</a>
+                    <a class="nav-link active" id="cafe-tab" data-toggle="tab" href="#cafe" role="tab"
+                        aria-controls="cafe" aria-selected="true">Café</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#capsulas" role="tab"
-                        aria-controls="profile" aria-selected="false">Cápsulas</a>
+                    <a class="nav-link" id="capsulas-tab" data-toggle="tab" href="#capsulas" role="tab"
+                        aria-controls="capsulas" aria-selected="false">Cápsulas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#comestibles" role="tab"
-                        aria-controls="contact" aria-selected="false">Comestibles</a>
+                    <a class="nav-link" id="comestibles-tab" data-toggle="tab" href="#comestibles" role="tab"
+                        aria-controls="comestibles" aria-selected="false">Comestibles</a>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="cafe" role="tabpanel" aria-labelledby="home-tab">
+                <div class="tab-pane fade show active" id="cafe" role="tabpanel" aria-labelledby="cafe-tab">
                     <div class="row justify-content-around p-5">
                         <div class="card card-producto col-12 col-md-3">
                             <img src="imagenes/cafe_brasil.jpg" alt="cafe en granos brasil">
@@ -380,8 +416,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="capsulas" role="tabpanel" aria-labelledby="profile-tab">
-                    <div class="row justify-content-center">
+                <div class="tab-pane fade" id="capsulas" role="tabpanel" aria-labelledby="capsulas-tab">
+                    <div class="row justify-content-center p-5">
                         <div class="card card-producto col-12 col-md-3">
                             <img src="imagenes/capsula_brasil.jpg" alt="cafe en capsula brasil">
                             <h4 class="card-title mt-3">Cápsulas Brasil compatibles con máquinas Nespresso®</h4>
@@ -412,8 +448,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="comestibles" role="tabpanel" aria-labelledby="contact-tab">
-                    <div class="row justify-content-center">
+                <div class="tab-pane fade" id="comestibles" role="tabpanel" aria-labelledby="comestibles-tab">
+                    <div class="row justify-content-center p-5">
                         <div class="card card-producto col-12 col-md-3">
                             <img src="imagenes/alfajor_chocolate_blanco.jpg" alt="alfajor chocolate blanco">
                             <h4 class="card-title mt-3">Caja alfajores dulce de leche blancos x30</h4>

@@ -1,17 +1,33 @@
-body{
-    font-family: 'Roboto', sans-serif; /*hola*/
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-p, a, li, h1, h2, h3, h4 {
+p,
+a,
+li,
+h1,
+h2,
+h3,
+h4 {
     color: #07130F;
 }
 
-p, a, li {
-    font-size: 20px;
+p,
+a,
+li {
+    font-size: 18px;
 }
 
 .bold {
     font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.white-font {
+    color: white;
 }
 
 /*Bg-color*/
@@ -24,15 +40,19 @@ p, a, li {
 }
 
 .bg-ligth-gray {
-    background-color: FCFCFC;
+    background-color: #FCFCFC;
 }
 
-.bg-dark-green{
+.bg-dark-green {
     background-color: #07130F;
 }
 
+.bg-dark {
+    background-color: #132826;
+}
+
 /*Nanvar*/
-#logo{
+#logo {
     width: 134px;
     height: 50px;
     font-size: 0;
@@ -43,17 +63,19 @@ p, a, li {
     left: calc(50% - 67px);
 }
 
-#clubMartinez {
-    background-image: url(../imagenes/bg-mano.png);
+
+
+#menusinprecio {
+    background-image: url(../imagenes/menu.jpg);
     background-position-x: center;
-    background-size: contain;
-    background-position-y: bottom;
+    background-size: cover;
+    background-position-y: center;
     background-repeat: no-repeat;
 }
 
-.bg-header{
+.bg-header {
     background-color: white;
-    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.05);
 }
 
 .navbar-light .navbar-toggler {
@@ -61,16 +83,8 @@ p, a, li {
 }
 
 /*Nanvarend*/
-#home {
-    background-image: url(../imagenes/bg-section-1.png);
-    height: 100vh;
-    background-size: contain;
-    background-position-y: center;
-    background-repeat: no-repeat;
-}
-
-.h100{
-    height: 100vh;
+.h100 {
+    min-height: 100vh;
 }
 
 .aling-center {
@@ -78,10 +92,11 @@ p, a, li {
     vertical-align: middle
 }
 
-.card{
+.card {
     max-width: 100%;
     padding: 20px;
     margin: 8px;
+    box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.05);
 }
 
 .card-producto {
@@ -89,51 +104,64 @@ p, a, li {
     max-width: 100%;
 }
 
-img{
-    max-width:100%;
+img {
+    max-width: 100%;
     display: block;
     margin: 0 auto;
 }
-#banner{
-   margin: 0px;
-   background-color: rgb(240, 240, 240);
-   padding: 20px 0px;
+
+.img-banner {
+    width: 10px;
 }
 
-.bannerImg{
+.logo-store {
+    max-width: 200px;
+}
+
+#banner {
+    margin: 0px;
+    background-color: rgb(240, 240, 240);
+    padding: 20px 0px;
+}
+
+.bannerImg {
     margin-top: 20px;
 }
 
-h2{
+h2 {
     margin-top: 20px;
 }
 
 .subtitulo {
     font-size: 25px;
 }
-.quienesSomos{
+
+.quienesSomos {
     background-image: url(/imagenes/bg-quienessomos.png);
     background-size: cover;
 }
-.quienesSomos img{
+
+.quienesSomos img {
     border-radius: 50%;
     padding: 0px 5px 0px 5px !important;
 }
 
-.float-left{
+.float-left {
     display: flex;
     float: left;
 }
 
 /* LINKS */
-a{
+a {
     font-weight: 600;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: rgb(177, 163, 163);
 }
-a:visited{
+
+a:visited {
     color: rgb(21, 21, 21);
 }
 
@@ -146,6 +174,13 @@ a:visited{
     border: none;
     padding: 0rem;
     font-size: calc(1.3rem + 0.6vw);
+}
+
+a.btn-fantasma {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 0.5rem;
 }
 
 /*Tabs*/
@@ -161,14 +196,16 @@ a:visited{
     color: #8D8D8D;
 }
 
-.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
     color: #fff;
     background-color: #39846e;
     border-radius: 1rem 1rem 0rem 0rem;
     border-color: #0000;
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
     border-radius: 1rem 1rem 0rem 0rem;
     border-color: #0000;
     isolation: isolate;
@@ -179,44 +216,70 @@ a:visited{
 div#myTabContent {
     border: 1px solid #8D8D8D;
     border-radius: 0rem 1rem 1rem 1rem;
-    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.05);
 }
 
 /*Footer*/
-ul{
+ul {
     list-style-type: none;
 }
-.material-icons{
-    font-size: 30px !important;
+
+.material-icons {
+    font-size: 25px !important;
+    vertical-align: text-top;
+    color: #24614F;
 }
 
-footer li{
+footer li {
     color: white;
 }
 
 @media (min-width: 768px) {
-    .card{
-        max-width: 14rem;
-        padding: 20px;
-        margin: 8px;
+    h1#logo {
+        left: auto;
     }
 
-    .quienesSomos img{
+    .quienesSomos img {
         max-width: 40%;
         padding: 0px 30px;
     }
-    .quienesSomos{
+
+    .quienesSomos {
         padding: 10px;
-        
+
     }
 
+    #home {
+        background-image: url(../imagenes/bg-section-1.png);
+        background-size: cover;
+        background-position-y: center;
+        background-position-x: center;
+        background-repeat: no-repeat;
+    }
+
+    .h100 {
+        height: 100vh;
+    }
+
+    #clubMartinez {
+        background-image: url(../imagenes/bg-mano.png);
+        background-position-x: center;
+        background-size: contain;
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+    }
 }
 
 @media (min-width: 1366px) {
-    .card{
+
+    .card {
         max-width: 18rem;
     }
-    
+
+    .card.card-producto.col-12.col-md-3 {
+        max-width: 14rem;
+    }
+
     h1 {
         font-size: 3rem;
     }
