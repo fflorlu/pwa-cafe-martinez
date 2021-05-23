@@ -2,7 +2,7 @@
  "name": "Aplicación de Café Martínez",
  "short_name": "Café Martínez",
  "lang": "es",
- "start_url": "/",
+ "start_url": "/app/",
  "display": "standalone",
  "background_color": "#aaaa",
  "theme_color": "#39846e",
