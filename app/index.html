@@ -33,7 +33,7 @@
             </div>
 
             <div data-role="header" data-position="fixed" data-theme="c">
-                <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez"></h1>
+                <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez" class="logoHeader"></h1>
                 <a href="#menu"
                     data-role="open"
                     data-icon="menu"
@@ -96,7 +96,7 @@
         </div>
 
         <div data-role="header" data-position="fixed" data-theme="c">
-            <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez"></h1>
+            <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez" class="logoHeader"></h1>
             <a href="#menu2" 
                 data-role="open"
                 data-icon="menu"
@@ -116,21 +116,21 @@
             data-expanded-icon="arrowUp"
             data-inset="false"
             data-corners="false"
-            class="m20 collapsibleSet iconBgTiendas">
+            class="collapsibleSet iconBgTiendas">
 
-             <div data-role="collapsible" data-collapsed="false" class="collapsible">
+             <div data-role="collapsible" data-collapsed="false">
                 <h4>Abasto Shopping</h4>
                 <p>Av. Corrientes, 3301 - CABA</p>
                 <p>Lunes a Domingos de 08:00 a 21:00 hs.</p>
               </div>
 
-              <div data-role="collapsible" data-collapsed="true" class="collapsible">
+              <div data-role="collapsible" data-collapsed="true">
                 <h4>Av Corrientes 3799</h4>
                 <p>Av. Corrientes, 3799 - CABA</p>
                 <p>Lunes a Viernes 7:30 a 21 hs.</p>
               </div>
 
-              <div data-role="collapsible" data-collapsed="true" class="collapsible">
+              <div data-role="collapsible" data-collapsed="true">
                 <h4>Hospital Italiano</h4>
                 <p>Teniente Gral. Juan D. Perón, 4169 - CABA</p>
                 <p>Lunes a Domingos de 08:00 a 20:00 hs.</p>
@@ -194,7 +194,7 @@
         </div>
 
         <div data-role="header" data-position="fixed" data-theme="c">
-            <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez"></h1>
+            <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez" class="logoHeader"></h1>
             <a href="#menu3"
                 data-role="open"
                 data-icon="menu"
@@ -244,7 +244,7 @@
         </div>
 
         <div data-role="header" data-position="fixed" data-theme="c">
-            <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez"></h1>
+            <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez" class="logoHeader"></h1>
             <a href="#menu4"
                 data-role="open"
                 data-icon="menu"
@@ -259,18 +259,18 @@
             <div data-role="main" class="ui-content p0">
                 <h2 class="textCenter colorGreen">Barista en casa</h2>
                 <p class="textCenter">Descubrí nuestra línea exclusiva para disfrutar en casa. Consegui cada uno
-                    de los
-                    productos en nuestras
-                    tiendas.</p>
+                    de los productos en nuestras tiendas.</p>
 
                 <a href="#cafeEnGrano" data-role="button" data-transition="pop">Café en grano</a>
+                <a href="#capsulas" data-role="button" data-transition="pop">Cápsulas</a>
+                <a href="#comestibles" data-role="button" data-transition="pop">Comestibles</a>
             </div>
         </div>
 
     <!-- ** dialog cafe en grano **-->
     <div data-role="dialog" id="cafeEnGrano" data-close-btn="right" data-icon="cerrar">
         <article role="main" class="ui-content">
-            <div data-role="header" data-position="fixed" class="header"> 
+            <div data-role="header" data-position="fixed"> 
                 <h2>Café en grano</h2>
             </div>
             <div class="card m20">
@@ -283,11 +283,126 @@
                 data-expanded-icon="arrowUp"
                 data-inset="false"
                 data-corners="false"
-                class="m20 collapsibleSet bgBarista textCenter">
+                class="m20 collapsibleSet baristaBg textCenter ">
                     <h4>Saber más</h4>
                     <p>Variedad de café en grano Brasil de 1kg de Café Martínez. Pack
                         reforzado
                         especialmente para conservar el café.</p>
+                  </div>
+            </div>
+
+            <div class="card m20">
+                <img src="/imagenes/cafe_colombia.jpg" alt="Café Colombia" class="cardImg">
+                <h4 class="cardTitle textCenter">Café en grano Colombia</h4>
+                
+                <div data-role="collapsible" 
+                data-collapsed="true" 
+                data-collapsed-icon="arrowDown" 
+                data-expanded-icon="arrowUp"
+                data-inset="false"
+                data-corners="false"
+                class="m20 collapsibleSet bgBarista textCenter">
+                    <h4>Saber más</h4>
+                    <p>Variedad de café en grano Colombia de 1kg de Café Martínez. Pack
+                        reforzado
+                        especialmente para conservar el café.</p>
+                </div>
+            </div>
+
+            <div class="card m20">
+                <img src="/imagenes/cafe_italiano.jpg" alt="Café Colombia" class="cardImg">
+                <h4 class="cardTitle textCenter">Café en grano Italiano</h4>
+                
+                <div data-role="collapsible" 
+                data-collapsed="true" 
+                data-collapsed-icon="arrowDown" 
+                data-expanded-icon="arrowUp"
+                data-inset="false"
+                data-corners="false"
+                class="m20 collapsibleSet bgBarista textCenter">
+                    <h4>Saber más</h4>
+                    <p>Variedad de café en grano Italiano de 1kg de Café Martínez. Pack
+                        reforzado
+                        especialmente para conservar el café.</p>
+                </div>
+            </div>
+
+            <div class="card m20">
+                <img src="/imagenes/cafe_moka.jpg" alt="Café Moka" class="cardImg">
+                <h4 class="cardTitle textCenter">Café en grano Moka</h4>
+                
+                <div data-role="collapsible" 
+                data-collapsed="true" 
+                data-collapsed-icon="arrowDown" 
+                data-expanded-icon="arrowUp"
+                data-inset="false"
+                data-corners="false"
+                class="m20 collapsibleSet bgBarista textCenter">
+                    <h4>Saber más</h4>
+                    <p>Variedad de café en grano Moka de 1kg de Café Martínez. Pack
+                        reforzado
+                        especialmente para conservar el café.</p>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <!-- ** dialog cápsulas **-->
+    <div data-role="dialog" id="capsulas" data-close-btn="right" data-icon="cerrar">
+        <article role="main" class="ui-content">
+            <div data-role="header" data-position="fixed"> 
+                <h2>Cápsulas</h2>
+            </div>
+            <div class="card m20 textCenter">
+                <img src="/imagenes/capsula_brasil.jpg" alt="Capsulas Brasil" class="cardImg">
+                <h4 class="cardTitle">Cápsulas Brasil compatibles con máquinas Nespresso®</h4>
+                <p>Cápsulas de aluminio compatibles con las máquinas Nespresso* x 10
+                    unidades</p>
+            </div>
+
+            <div class="card m20 textCenter">
+                <img src="/imagenes/capsula_colombia.jpg" alt="Capsulas Colombia" class="cardImg">
+                <h4 class="cardTitle">Cápsulas Colombia compatibles con máquinas Nespresso®</h4>
+                <p>Cápsulas de aluminio compatibles con las máquinas Nespresso* x 10
+                    unidades</p>
+            </div>
+
+            <div class="card m20 textCenter">
+                <img src="/imagenes/capsula_italiano.webp" alt="Capsulas Italiano" class="cardImg">
+                <h4 class="cardTitle">Cápsulas Italiano compatibles con máquinas Nespresso®</h4>
+                <p>Cápsulas de aluminio compatibles con las máquinas Nespresso* x 10
+                    unidades</p>
+            </div>
+
+            <div class="card m20 textCenter">
+                <img src="/imagenes/capsula_moka.jpg" alt="Capsulas Moka" class="cardImg">
+                <h4 class="cardTitle">Cápsulas Moka compatibles con máquinas Nespresso®</h4>
+                <p>Cápsulas de aluminio compatibles con las máquinas Nespresso* x 10
+                    unidades</p>
+            </div>
+        </article>
+    </div>
+
+    <!-- ** dialog comestibles **-->
+    <div data-role="dialog" id="comestibles" data-close-btn="right" data-icon="cerrar">
+        <article role="main" class="ui-content">
+            <div data-role="header" data-position="fixed"> 
+                <h2>Comestibles</h2>
+            </div>
+            <div class="card m20">
+                <img src="/imagenes/alfajor_chocolate_blanco.jpg" alt="Alfajor de chocolate blanco" class="cardImg">
+                <h4 class="cardTitle textCenter">Caja alfajores dulce de leche blancos x30</h4>
+                <div data-role="collapsible" 
+                data-collapsed="true" 
+                data-collapsed-icon="arrowDown" 
+                data-expanded-icon="arrowUp"
+                data-inset="false"
+                data-corners="false"
+                class="m20 collapsibleSet bgBarista textCenter">
+                    <h4>Saber más</h4>
+                    <p>Caja de alfajores rellenos de dulce de leche con merengue italiano
+                        x 30
+                        unidades.</p>
                   </div>
             </div>
 

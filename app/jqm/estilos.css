@@ -10,6 +10,10 @@ img{
     right: 0px;
 }
 
+.logoHeader{
+    width: 150px;
+}
+
 .textCenter{
     text-align: center;
 }
@@ -45,9 +49,10 @@ img{
     background-color: white;
 }
 
-.bgBarista{
+.baristaBg{
     border: 1px solid rgba(198, 198, 198, 0.667);
 }
+
 /*Buttons*/
 .btn{
     max-width: 80%;
@@ -84,7 +89,7 @@ img{
     width: 40px;
     height: 40px;
     background-color: transparent;
-    margin:-20px;
+    margin:-20px 0px;
 }
 .ui-icon-arrowUp:after {
     background-image: url(../imagenes/baseline_expand_less_black_24dp.png);
@@ -92,7 +97,7 @@ img{
     width: 40px;
     height: 40px;
     background-color: transparent;
-    margin:-20px;
+    margin:-20px 0px;
 }
 .ui-icon-menu:after{
     background-image: url(../imagenes/baseline_menu_white_24dp.png);
