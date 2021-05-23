@@ -56,11 +56,14 @@
                     <img src="imagenes/mobile-bg.png" alt="taza con frase cafe martinez">
                 </div>
                 <div class="col-12 col-md-6 p-0 d-none d-sm-none d-md-block">
-                    <div class="p-5 text-center justify-content-center aling-center h100">
-                        <h1>Nuestro café es único</h1>
-                        <p class="subtitulo mt-5">Seleccionamos la mejor calidad para tu paladar</p>
+                    <div class="p-5 justify-content-center aling-center h100">
+                        <h1 class="text-center fw-bold">Nuestro café es único</h1>
+                        <div class="align-items-center">
+                            <p class="subtitulo mt-5">Seleccionamos la mejor calidad para tu paladar</p>
+                        </div>
                     </div>
                 </div>
+                <div class="col-6 d-none d-sm-none d-md-block"></div>
             </div>
 
         </div>
@@ -72,7 +75,7 @@
     </section>
 
     <!-- content tiendas  -->
-    <section class="container-fluid bg-green h100 p-5" id="tiendas">
+    <section class="container-fluid bg-green h100 p-3 p-md-5" id="tiendas">
         <h2 class="text-center fw-bold">Nuestras Tiendas</h2>
         <div class="d-none d-sm-none d-md-block mt-5">
             <div class="row justify-content-center p-4 p-md-0">
@@ -317,45 +320,54 @@
     </section>
 
     <!-- content quienes somos -->
-    <section class="container mt-5 h100" id="quienesSomos">
-        <h2 class="text-center fw-bold">¿Quiénes somos?</h2>
-        <hr>
-        <div class="row m-0">
-            <div class="quienesSomos align-content-center col-md-4">
-                <img src="imagenes/foto-cafe-quienes-somos.jpg" class="float-left"
-                    alt="Un café con leche con dibujo en el café">
-                <img src="imagenes/foto-cafe-corazon-quienes-somos.jpg" class="float-left"
-                    alt="Un café con leche con dibujo en el café">
-            </div>
-            <div class="align-items-center col-md-8">
-                <h3>TOSTADORES Y ELABORADORES DE CAFÉ DESDE 1933</h3>
-                <p>Desde 1933 tostamos nuestro propio café.
-                    Lo cuidamos desde la selección de sus granos, hasta la taza, conservando el amor y el respeto
-                    que tenemos por lo que hacemos, desde el primer día.
-                    Por eso nuestro café es ÚNICO.
-                    A través de nuestro proceso exclusivo de tostación, logramos resaltar las notas y
-                    características propias de los diferentes granos.
-                    Un aroma pleno, con notas de chocolate, pan tostado, miel y caramelo y un sabor con cuerpo, con
-                    un toque de frescura, es lo que hace
-                    inconfundible a un Café Martínez, siempre.</p>
+    <section id="quienesSomos">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 p-0 d-block d-sm-none">
+                    <img src="imagenes/bg-section-2-mobile.png" alt="tienda cafe martinez">
+                </div>
+                <div class="col-6 d-none d-sm-none d-md-block"></div>
+                <div class="col-12 col-md-6 p-0 ">
+                    <div class="p-5 justify-content-center aling-center h100">
+                        <h2 class="text-center fw-bold">¿Quiénes somos?</h2>
+                        <div class="align-items-center mt-5">
+                            <h3>TOSTADORES Y ELABORADORES DE CAFÉ DESDE 1933</h3>
+                            <p class="text-left">Desde 1933 tostamos nuestro propio café.
+                                Lo cuidamos desde la selección de sus granos, hasta la taza, conservando el amor y el
+                                respeto
+                                que tenemos por lo que hacemos, desde el primer día.
+                                Por eso nuestro café es ÚNICO.
+                                A través de nuestro proceso exclusivo de tostación, logramos resaltar las notas y
+                                características propias de los diferentes granos.
+                                Un aroma pleno, con notas de chocolate, pan tostado, miel y caramelo y un sabor con
+                                cuerpo, con
+                                un toque de frescura, es lo que hace
+                                inconfundible a un Café Martínez, siempre.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
     <!--Content club martinez-->
 
     <section id="clubMartinez" class="container-fluid h100 bg-green">
         <div class="row">
             <div class="col-6 col-md-none d-sm-none d-md-block"></div>
+            <div class="col-12 p-0 d-block d-sm-none">
+                <img src="imagenes/bg-mano-mobile.png" alt="mano con celular">
+            </div>
             <div class="col-12 col-md-6">
-                <div class="p-0 p-md-5 justify-content-center aling-center">
-                    <h2 class="text-center fw-bold">Club Cafe Martinez</h2>
+                <div class="p-0 p-md-5 justify-content-center aling-center h100">
+                    <h2 class="text-center fw-bold mt-5 mt-md-0">Club Cafe Martinez</h2>
                     <p class="subtitulo mt-5 bold">Subtitulo</p>
                     <p class="text-left">Descarga nuestra APP, regístrate y gana por disfrutar.
                         También podes hacer tu pedido de cafetería a la sucursal más cercana a través de nuestra APP
                         para delivery o retiro en tienda.</p>
-                    <div class="d-md-flex mt-5">
+                    <div class="d-flex mt-5 mb-3 mb-md-0">
                         <img src="imagenes/appstore.png" class="logo-store" alt="apple store">
-                        <img src="imagenes/playstore.png" class="logo-store mt-3 mt-md-0" alt="play store">
+                        <img src="imagenes/playstore.png" class="logo-store" alt="play store">
                     </div>
                 </div>
             </div>
@@ -369,18 +381,18 @@
             productos en nuestras
             tiendas.</p>
         <div class="container mt-5 mb-5">
-            <ul class="nav nav-tabs col-12" id="myTab" role="tablist">
+            <ul class="nav nav-tabs nav-tab-bottom col-12" id="myTab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="cafe-tab" data-toggle="tab" href="#cafe" role="tab"
+                    <a class="nav-link nav-link-bottom active" id="cafe-tab" data-toggle="tab" href="#cafe" role="tab"
                         aria-controls="cafe" aria-selected="true">Café</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="capsulas-tab" data-toggle="tab" href="#capsulas" role="tab"
+                    <a class="nav-link nav-link-bottom" id="capsulas-tab" data-toggle="tab" href="#capsulas" role="tab"
                         aria-controls="capsulas" aria-selected="false">Cápsulas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="comestibles-tab" data-toggle="tab" href="#comestibles" role="tab"
-                        aria-controls="comestibles" aria-selected="false">Comestibles</a>
+                    <a class="nav-link nav-link-bottom" id="comestibles-tab" data-toggle="tab" href="#comestibles"
+                        role="tab" aria-controls="comestibles" aria-selected="false">Comestibles</a>
                 </li>
             </ul>
             <div class="tab-content" id="myTabContent">
@@ -417,7 +429,7 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="capsulas" role="tabpanel" aria-labelledby="capsulas-tab">
-                    <div class="row justify-content-center p-5">
+                    <div class="row justify-content-around p-5">
                         <div class="card card-producto col-12 col-md-3">
                             <img src="imagenes/capsula_brasil.jpg" alt="cafe en capsula brasil">
                             <h4 class="card-title mt-3">Cápsulas Brasil compatibles con máquinas Nespresso®</h4>
@@ -449,7 +461,7 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="comestibles" role="tabpanel" aria-labelledby="comestibles-tab">
-                    <div class="row justify-content-center p-5">
+                    <div class="row justify-content-around p-5">
                         <div class="card card-producto col-12 col-md-3">
                             <img src="imagenes/alfajor_chocolate_blanco.jpg" alt="alfajor chocolate blanco">
                             <h4 class="card-title mt-3">Caja alfajores dulce de leche blancos x30</h4>
@@ -487,19 +499,21 @@
     <!--Footer-->
     <footer class="container-fluid bg-dark-green py-5 d-flex justify-content-around">
         <div class="row">
-            <ul class="m-0 p-0 alumnas">
-                <li class="h4"><span class="material-icons alumnas">groups</span> Alumnas</li>
-                <li>Florencia Luis</li>
-                <li>Julieta Valle</li>
-                <li>Yamila Volpe</li>
-            </ul>
-        </div>
-        <div class="row">
-            <ul class="m-0 p-0">
-                <li>Escuela Da Vinci</li>
-                <li>Desarrollo de Apps Multiplataforma</li>
-                <li>PWA de muestra con fines académicos</li>
-            </ul>
+            <div class="col-12 col-md-6">
+                <ul class="m-0 p-0 alumnas">
+                    <li class="h4"><span class="material-icons alumnas">groups</span> Alumnas</li>
+                    <li>Florencia Luis</li>
+                    <li>Julieta Valle</li>
+                    <li>Yamila Volpe</li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 mt-5 mt-md-0">
+                <ul class="m-0 p-0">
+                    <li>Escuela Da Vinci</li>
+                    <li>Desarrollo de Apps Multiplataforma</li>
+                    <li>PWA de muestra con fines académicos</li>
+                </ul>
+            </div>
         </div>
     </footer>
 

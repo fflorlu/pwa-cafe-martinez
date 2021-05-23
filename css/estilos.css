@@ -115,7 +115,7 @@ img {
 }
 
 .logo-store {
-    max-width: 200px;
+    max-width: 140px;
 }
 
 #banner {
@@ -184,11 +184,11 @@ a.btn-fantasma {
 }
 
 /*Tabs*/
-.nav-tabs {
+.nav-tab-bottom {
     border-bottom: none;
 }
 
-.nav-tabs .nav-link {
+.nav-tab-bottom .nav-link-bottom {
     border-radius: 1rem 1rem 0rem 0rem;
     background-color: #EEF1F0;
     border: 1px solid;
@@ -196,16 +196,16 @@ a.btn-fantasma {
     color: #8D8D8D;
 }
 
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
+.nav-tab-bottom .nav-link-bottom.active,
+.nav-tab-bottom .nav-item.show .nav-link-bottom {
     color: #fff;
     background-color: #39846e;
     border-radius: 1rem 1rem 0rem 0rem;
     border-color: #0000;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link-bottom:hover,
+.nav-link-bottom:focus {
     border-radius: 1rem 1rem 0rem 0rem;
     border-color: #0000;
     isolation: isolate;
@@ -234,7 +234,19 @@ footer li {
     color: white;
 }
 
+.card-title {
+    margin-bottom: 0rem;
+}
+
 @media (min-width: 768px) {
+    .logo-store {
+        max-width: 200px;
+    }
+
+    .card-title {
+        margin-bottom: 0.5rem;
+    }
+
     h1#logo {
         left: auto;
     }
@@ -263,6 +275,14 @@ footer li {
 
     #clubMartinez {
         background-image: url(../imagenes/bg-mano.png);
+        background-position-x: center;
+        background-size: contain;
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+    }
+
+    #quienesSomos {
+        background-image: url(../imagenes/bg-section-2.png);
         background-position-x: center;
         background-size: contain;
         background-position-y: bottom;
