@@ -10,6 +10,10 @@ img{
     right: 0px;
 }
 
+.logoHeader{
+    width: 150px;
+}
+
 .textCenter{
     text-align: center;
 }
@@ -37,6 +41,17 @@ img{
 .m20{
     margin: 20px;
 }
+.m10{
+    margin: 10px;
+}
+
+.ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn{
+    background-color: white;
+}
+
+.baristaBg{
+    border: 1px solid rgba(198, 198, 198, 0.667);
+}
 
 /*Buttons*/
 .btn{
@@ -49,4 +64,71 @@ img{
     width: 60px;
     margin-top: 10px;
     margin-bottom: 30px;
+}
+
+.hambMenu{
+    margin: 10px !important;
+    top: -15%;
+    transform: translateY(15%);
+}
+
+/* Icons */
+.ui-nodisc-icon{
+    border: 0 solid transparent !important;
+    background-color: #39846e !important;
+    box-shadow: none !important;
+    margin: 2px;
+}
+.iconBgTiendas{
+    border: 0 solid transparent !important;
+    box-shadow: none !important;
+}
+.ui-icon-arrowDown:after {
+    background-image: url(../imagenes/baseline_expand_more_black_24dp.png);
+    background-size: 32px 32px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    margin:-20px 0px;
+}
+.ui-icon-arrowUp:after {
+    background-image: url(../imagenes/baseline_expand_less_black_24dp.png);
+    background-size: 32px 32px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    margin:-20px 0px;
+}
+.ui-icon-menu:after{
+    background-image: url(../imagenes/baseline_menu_white_24dp.png);
+    background-size: 32px 32px;
+    width: 40px;
+    height: 40px;
+    margin:-20px;
+}
+
+.ui-icon-cerrar:after {
+    background-image: url(../imagenes/baseline_cancel_black_24dp.png);
+    background-size: 32px 32px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    margin:-20px;
+}
+
+/* Cards */
+
+.card{
+    background:#fff;
+    overflow:hidden;
+    box-shadow: 3px 3px 10px #aaa;
+}
+
+.cardTitle{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.cardImg{
+    width: 60%;
 }
