@@ -20,44 +20,46 @@
         </div>
         <!-- ** content home ** -->
         <div data-role="main" class="ui-content p0">
-            <img src="/imagenes/patron-cafe.png" alt="Patrón de cafeteras" id="bannerHome">
+            <img src="/imagenes/patron-cafe.png" alt="Patrón de cafeteras">
 
             <div class="textCenter m20">
                 <h2>Nuestro café es único</h2>
                 <img src="/imagenes/cafe-banner-proceso.png" alt="Banner mostrando el proceso del café">
             </div>
                     <a href="#tiendas" 
+                    data-theme="c"
                     data-role="button"
                     data-icon="navegar"
                     data-iconpos="right"
                     class="btnTiendas card m20">
-                    <h3 class="colorGreen btnTiendasText">Encontrá el Café Martínez más cercano</h3>
+                    <h3 class="btnTiendasText">Encontrá el Café Martínez más cercano</h3>
                     </a>
             
-                    <a href="#baristaencasa" 
+                    <a href="/imagenes/MENUSINPRECIO.pdf" 
+                    data-theme="c"
                     data-role="button"
                     data-icon="navegar"
                     data-iconpos="right"
                     class="btnTiendas card m20">
-                    <h3 class="colorGreen btnTiendasText">Barista en casa</h3>
+                    <h3 class="btnTiendasText">Descargá nuestro menú</h3>
                     </a>
 
                     <h3 class="textCenter">¡Seguinos en nuestras redes!</h3>
-                    <ul class="ui-grid-b m0">
-                        <li class="ui-block-a"><a href="#"  data-role="button" data-icon="instagram" data-iconpos="notext" class="btnRedes">Instagram</a></li>
-                        <li class="ui-block-b"><a href="#" data-role="button" data-icon="facebook" data-iconpos="notext" class="btnRedes">Facebook</a></li>
-                        <li class="ui-block-c"><a href="#" data-role="button" data-icon="twitter" data-iconpos="notext" class="btnRedes">Twitter</a></li>
+                    <ul class="ui-grid-b">
+                        <li class="ui-block-a"><a href="https://www.instagram.com/cafemartinezoficial/"  data-role="button" data-icon="instagram" data-iconpos="notext" class="btnRedes">Instagram</a></li>
+                        <li class="ui-block-b"><a href="https://www.facebook.com/CafeMartinezSitioOficial/" data-role="button" data-icon="facebook" data-iconpos="notext" class="btnRedes">Facebook</a></li>
+                        <li class="ui-block-c"><a href="https://twitter.com/cafemartinez" data-role="button" data-icon="twitter" data-iconpos="notext" class="btnRedes">Twitter</a></li>
                     </ul>
         </div>
 
         <!--menu-->
-        <div data-role="footer" data-theme="c" id="menu">
+        <div data-role="footer" data-theme="b" id="menu">
             <div data-role="navbar" class="fixedFooter">
                 <ul>
                     <li ><a href="#home" data-role="button" data-icon="home" data-iconpos="top" class="tabMenuBtn">Home</a></li>
                     <li><a href="#tiendas" data-role="button" data-icon="tiendas" data-iconpos="top" class="tabMenuBtn">Tiendas</a></li>    
-                    <li><a href="#quienessomos" data-role="button" data-icon="nosotros" data-iconpos="top" class="tabMenuBtn" class="tabMenuBtn">Nosotros</a></li>    
-                    <li><a href="#baristaencasa" data-role="button" data-icon="enCasa" data-iconpos="top" class="tabMenuBtn">En casa</a></li>    
+                    <li><a href="#nuestrocafe" data-role="button" data-icon="nosotros" data-iconpos="top" class="tabMenuBtn">Nosotros</a></li>    
+                    <li><a href="#baristaencasa" data-role="button" data-icon="productos" data-iconpos="top" class="tabMenuBtn">Productos</a></li>    
                     <li><a href="#sumateanosotros" data-role="button" data-icon="sumate" data-iconpos="top" class="tabMenuBtn">Sumate</a></li>
                 </ul>
             </div>
@@ -74,6 +76,7 @@
         <!-- ** content tiendas ** -->
         <div data-role="main" class="ui-content p0">
             <h2 class="textCenter colorGreen">Tiendas</h2>
+            <p class="textCenter">Encontrá el Café Martínez más cercano</p>
             <img src="imagenes/tiendas-cafe-martinez.jpg" alt="Cartel de una tienda de Café Martínez">
             
             <div data-role="collapsible-set"
@@ -136,13 +139,13 @@
         </div>
 
         <!--menu-->
-        <div data-role="footer" data-theme="c" id="menu2">
+        <div data-role="footer" data-theme="b" id="menu2">
             <div data-role="navbar" class="fixedFooter">
                 <ul>
                     <li ><a href="#home" data-role="button" data-icon="home" data-iconpos="top" class="tabMenuBtn">Home</a></li>
                     <li><a href="#tiendas" data-role="button" data-icon="tiendas" data-iconpos="top" class="tabMenuBtn">Tiendas</a></li>    
-                    <li><a href="#quienessomos" data-role="button" data-icon="nosotros" data-iconpos="top" class="tabMenuBtn" class="tabMenuBtn">Nosotros</a></li>    
-                    <li><a href="#baristaencasa" data-role="button" data-icon="enCasa" data-iconpos="top" class="tabMenuBtn">En casa</a></li>    
+                    <li><a href="#nuestrocafe" data-role="button" data-icon="nosotros" data-iconpos="top" class="tabMenuBtn">Nosotros</a></li>    
+                    <li><a href="#baristaencasa" data-role="button" data-icon="productos" data-iconpos="top" class="tabMenuBtn">Productos</a></li>    
                     <li><a href="#sumateanosotros" data-role="button" data-icon="sumate" data-iconpos="top" class="tabMenuBtn">Sumate</a></li>
                 </ul>
             </div>
@@ -150,40 +153,39 @@
     </div>
     <!--/tiendas-->
 
-    <!--quienes somos-->
-    <div data-role="page" id="quienessomos">
+    <!--nuestro café-->
+    <div data-role="page" id="nuestrocafe">
         <div data-role="header" class="fixedHeader">
             <img src="/imagenes/cafe-martinez-logo.png" class="logoHeader" alt="Logo de Café Martínez" >
         </div>
             
-            <!-- ** content quienes somos ** -->
+            <!-- ** content nuestro café ** -->
             <div data-role="main" class="ui-content p0">
-
                 <div class="m20">
-                <h2 class="textCenter">TOSTADORES Y ELABORADORES DE CAFÉ DESDE 1933</h2>
-                <p>Lo cuidamos desde la selección de sus granos, hasta la taza, 
-                    conservando el amor y el respeto que tenemos por lo que hacemos, 
-                    desde el primer día. Por eso nuestro café es ÚNICO.
-                    A través de nuestro proceso exclusivo de tostación, 
-                    logramos resaltar las notas y características propias de los diferentes granos. 
-                    Un aroma pleno, con notas de chocolate, pan tostado, miel y caramelo y un sabor con cuerpo, 
-                    con un toque de frescura, es lo que hace inconfundible a un Café Martínez, siempre.</p>
+                    <h2 class="textCenter"> Cada día le ponemos color al café</h2>
+                    <p>Nuestro café tiene los naranjas del amanecer. El ocre del pan recién horneado. El gris de los días grises, y la sonrisa blanca de quien te acompaña.
+                        Tiene el tono cálido de un abrazo. El rosa de unas mejillas en problemas, y el casi blanco de una lágrima.
+                        Luce el rojo rabioso de un jugo de frutillas. El color que sólo tiene tu barrio. La blue note. El amarillo cheese. Y hasta el verde rúcula de una ensalada algo compleja. Reúne tantos colores, como gustos se hayan escrito.
+                        Los tiene en degradé como el capuchino, e intensos como una buena charla.
+                        Nuestro café, no se define por lo que es, sino por los momentos que provoca.</p>
                 </div>
+
+                <img src="/imagenes/foto-cafe-corazon-quienes-somos.jpg" alt="Café con leche">
             </div>
             <!--menu-->
-        <div data-role="footer" data-theme="c" id="menu3">
+        <div data-role="footer" data-theme="b" id="menu3">
             <div data-role="navbar" class="fixedFooter">
                 <ul>
                     <li ><a href="#home" data-role="button" data-icon="home" data-iconpos="top" class="tabMenuBtn">Home</a></li>
                     <li><a href="#tiendas" data-role="button" data-icon="tiendas" data-iconpos="top" class="tabMenuBtn">Tiendas</a></li>    
-                    <li><a href="#quienessomos" data-role="button" data-icon="nosotros" data-iconpos="top" class="tabMenuBtn" class="tabMenuBtn">Nosotros</a></li>    
-                    <li><a href="#baristaencasa" data-role="button" data-icon="enCasa" data-iconpos="top" class="tabMenuBtn">En casa</a></li>    
+                    <li><a href="#nuestrocafe" data-role="button" data-icon="nosotros" data-iconpos="top" class="tabMenuBtn">Nosotros</a></li>    
+                    <li><a href="#baristaencasa" data-role="button" data-icon="productos" data-iconpos="top" class="tabMenuBtn">Productos</a></li>    
                     <li><a href="#sumateanosotros" data-role="button" data-icon="sumate" data-iconpos="top" class="tabMenuBtn">Sumate</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <!--/quienes somos-->
+    <!--/nuestro café-->
 
     <!--barista en casa-->
     <div data-role="page" id="baristaencasa">
@@ -201,24 +203,25 @@
                 <a href="#comestibles" data-role="button" data-transition="pop"><img src="./imagenes/comestibles.png" alt="Café en grano Brasil" class="btnImg">Comestibles</a>
             </div>
         
-        <div data-role="footer" data-theme="c" id="menu4">
+        <div data-role="footer" data-theme="b" id="menu4">
             <div data-role="navbar" class="fixedFooter">
                 <ul>
                     <li ><a href="#home" data-role="button" data-icon="home" data-iconpos="top" class="tabMenuBtn">Home</a></li>
                     <li><a href="#tiendas" data-role="button" data-icon="tiendas" data-iconpos="top" class="tabMenuBtn">Tiendas</a></li>    
-                    <li><a href="#quienessomos" data-role="button" data-icon="nosotros" data-iconpos="top" class="tabMenuBtn" class="tabMenuBtn">Nosotros</a></li>    
-                    <li><a href="#baristaencasa" data-role="button" data-icon="enCasa" data-iconpos="top" class="tabMenuBtn">En casa</a></li>    
+                    <li><a href="#nuestrocafe" data-role="button" data-icon="nosotros" data-iconpos="top" class="tabMenuBtn">Nosotros</a></li>    
+                    <li><a href="#baristaencasa" data-role="button" data-icon="productos" data-iconpos="top" class="tabMenuBtn">Productos</a></li>    
                     <li><a href="#sumateanosotros" data-role="button" data-icon="sumate" data-iconpos="top" class="tabMenuBtn">Sumate</a></li>
-                </ul>
+                </ul> 
             </div>
         </div>
     </div>   
 
-    <!-- ** dialog cafe en grano **-->
+<!-- **** DIALOGS **** -->
+    <!-- cafe en grano -->
     <div data-role="dialog" id="cafeEnGrano" data-close-btn="right" data-icon="cerrar">
         <article role="main" class="ui-content">
             <div data-role="header" data-position="fixed"> 
-                <img src="/imagenes/cafe-martinez-logo-blanco.png" class="logoHeader" alt="Logo de Café Martínez">
+                <img src="/imagenes/cafe-martinez-logo-blanco.png" class="logoDialog" alt="Logo de Café Martínez">
             </div>
             <h2 class="textCenter dialogTitle">Café en grano</h2>
             <div class="card m20">
@@ -295,11 +298,11 @@
         </article>
     </div>
 
-    <!-- ** dialog cápsulas **-->
+    <!-- cápsulas -->
     <div data-role="dialog" id="capsulas" data-close-btn="right" data-icon="cerrar">
         <article role="main" class="ui-content">
             <div data-role="header" data-position="fixed"> 
-                <img src="/imagenes/cafe-martinez-logo-blanco.png" class="logoHeader" alt="Logo de Café Martínez">
+                <img src="/imagenes/cafe-martinez-logo-blanco.png" class="logoDialog" alt="Logo de Café Martínez">
             </div>
             <h2 class="textCenter dialogTitle">Cápsulas</h2>
             <div class="card m20 textCenter">
@@ -332,11 +335,11 @@
         </article>
     </div>
 
-    <!-- ** dialog comestibles **-->
+    <!-- comestibles -->
     <div data-role="dialog" id="comestibles" data-close-btn="right" data-icon="cerrar">
         <article role="main" class="ui-content">
             <div data-role="header" data-position="fixed"> 
-                <img src="/imagenes/cafe-martinez-logo-blanco.png" class="logoHeader" alt="Logo de Café Martínez">
+                <img src="/imagenes/cafe-martinez-logo-blanco.png" class="logoDialog" alt="Logo de Café Martínez">
             </div>
             <h2 class="textCenter dialogTitle">Comestibles</h2>
             <div class="card m20">
@@ -406,6 +409,64 @@
             </div>
         </article>
     </div>
+
+    <!-- sumate a nosotros -->
+    <div data-role="page" id="sumateanosotros">
+        <div data-role="header" class="fixedHeader">
+            <img src="/imagenes/cafe-martinez-logo.png" class="logoHeader" alt="Logo de Café Martínez" >
+        </div>
+            
+            <!-- ** content sumate a nosotros ** -->
+            <div data-role="main" class="ui-content p0">
+                <div class="m20">
+
+                    <h2 class="textCenter colorGreen">Sumate a nosotros</h2>
+                    <p>En Café Martínez queremos que crezcas, te formes y aprendas en un ambiente muy amigable y compañero.
+                        ¡Animate a sumarte a nuestro equipo! </p>
+
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfLZX2iV4ENiR5f4RGeb5DF2UfGcGz4uv9TkYmT5206rAN81A/viewform" 
+                        data-theme="c"
+                        data-role="button"
+                        data-icon="false"
+                        data-iconpos="right"
+                        class="btnTiendas card">
+                        <h3 class="textCenter m0 ">Cargá tu CV online</h3>
+                    </a>
+
+                    <a href="mailto:info@cafemartinez.com.ar" 
+                        data-theme="c"
+                        data-role="button"
+                        data-icon="false"
+                        data-iconpos="right"
+                        class="btnTiendas card">
+                        <h3 class="textCenter m0 ">Mandanos tu CV formato PDF</h3>
+                    </a>
+
+                    <a href="#tiendas" 
+                        data-theme="c"
+                        data-role="button"
+                        data-icon="false"
+                        data-iconpos="right"
+                        class="btnTiendas card">
+                        <h3 class="textCenter m0">Deja tu CV en nuestras tiendas</h3>
+                    </a>
+                </div>
+
+            </div>
+            <!--menu-->
+        <div data-role="footer" data-theme="b" id="menu5">
+            <div data-role="navbar" class="fixedFooter">
+                <ul>
+                    <li ><a href="#home" data-role="button" data-icon="home" data-iconpos="top" class="tabMenuBtn">Home</a></li>
+                    <li><a href="#tiendas" data-role="button" data-icon="tiendas" data-iconpos="top" class="tabMenuBtn">Tiendas</a></li>    
+                    <li><a href="#nuestrocafe" data-role="button" data-icon="nosotros" data-iconpos="top" class="tabMenuBtn">Nosotros</a></li>    
+                    <li><a href="#baristaencasa" data-role="button" data-icon="productos" data-iconpos="top" class="tabMenuBtn">Productos</a></li>    
+                    <li><a href="#sumateanosotros" data-role="button" data-icon="sumate" data-iconpos="top" class="tabMenuBtn">Sumate</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--/sumate a nosotros -->
 </body>
 
 </html>

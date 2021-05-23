@@ -1,17 +1,16 @@
 .ui-content{
-    padding-top: 60px !important;
-    padding-bottom: 80px !important;
-}
-
-#bannerHome{
-    top: 0px;
-    left: 0px;
-    right: 0px;
+    padding-top: 70px !important;
+    padding-bottom: 60px !important;
 }
 
 .logoHeader{
     width: 160px;
     padding: 3px;
+}
+
+.logoDialog{
+    width: 130px;
+    padding: 8px;
 }
 
 img{
@@ -58,6 +57,10 @@ img{
     margin-left: 15px;
 }
 
+.ui-bar-b{
+    background-color: white;
+    border-color: white;
+}
 .baristaBg{
     border: 1px solid rgba(198, 198, 198, 0.667);
 }
@@ -65,6 +68,7 @@ img{
 .dialogTitle{
     margin-top: -25px;
 }
+
 /* Tab menu */
 .fixedHeader, .fixedFooter{
     width: 100%;
@@ -78,12 +82,18 @@ img{
 }
 .fixedFooter{
     bottom: 0;
+    box-shadow: 3px 3px 10px #aaa;
+    background-color: white;
 }
 .fixedFooter a{
     color: black !important;
-
+    font-size: 10px !important;
+    padding-bottom: 10px;
+    padding-top: 40px;
 }
-
+.ui-header.ui-fixed-hidden {
+    position: fixed !important;
+}
 /*Buttons*/
 .btn{
     max-width: 80%;
@@ -92,9 +102,9 @@ img{
 }
 
 .btnTiendasText{
-    font-size: 18px;
+    font-size: 17px;
     text-align: left;
-    margin-left: 0px;
+    margin-left: -10px;
 }
 
 .btnImg{
@@ -102,8 +112,8 @@ img{
 }
 
 .btnRedes{
-    height: 60px !important;
-    width: 60px !important;
+    height: 60px;
+    width: 60px;
    
 }
 .ui-grid-b li{
@@ -111,6 +121,10 @@ img{
     justify-content: center;
     align-content: center;
 }
+.tabMenuBtn{
+    background-color: white !important;
+}
+
 /* Icons */
 .ui-nodisc-icon{
     border: 0 solid transparent !important;
@@ -138,13 +152,6 @@ img{
     background-color: transparent;
     margin:-20px 0px;
 }
-.ui-icon-menu:after{
-    background-image: url(../imagenes/baseline_menu_white_24dp.png);
-    background-size: 32px 32px;
-    width: 40px;
-    height: 40px;
-    margin:-20px;
-}
 .ui-icon-cerrar:after {
     background-image: url(../imagenes/baseline_cancel_black_24dp.png);
     background-size: 32px 32px;
@@ -166,77 +173,82 @@ img{
     background-image: url(../imagenes/baseline_home_black_24dp.png);
     background-size: 29px 29px;
     width: 30px;
-    height: 30px;
     background-color: transparent;
     margin-left: -15px;
     margin-top: -3px;
+    top: 18px;
 }
+.fixedFooter .ui-btn-active {
+    background-color: rgb(238, 238, 238) !important;
+  }
+  
+
 
 .ui-icon-tiendas:after {
     background-image: url(../imagenes/baseline_store_black_24dp.png);
     background-size: 29px 29px;
     width: 30px;
-    height: 30px;
     background-color: transparent;
     margin-left: -15px;
     margin-top: -3px;
+    top: 17px;
 }
 
 .ui-icon-nosotros:after {
     background-image: url(../imagenes/baseline_apartment_black_24dp.png);
     background-size: 29px 29px;
     width: 30px;
-    height: 30px;
     background-color: transparent;
     margin-left: -15px;
     margin-top: -3px;
+    top: 17px;
 }
 
-.ui-icon-enCasa:after {
+.ui-icon-productos:after {
     background-image: url(../imagenes/baseline_local_cafe_black_24dp.png);
     background-size: 27px 27px;
     width: 30px;
-    height: 30px;
     background-color: transparent;
     margin-left: -15px;
     margin-top: -3px;
+    top: 17px;
 }
 
 .ui-icon-sumate:after {
     background-image: url(../imagenes/baseline_group_add_black_24dp.png);
     background-size: 29px 29px;
     width: 30px;
-    height: 30px;
     background-color: transparent;
     margin-left: -17px;
     margin-top: -3px;
+    top: 17px;
 }
 
 .ui-icon-instagram:after {
     background-image: url(../imagenes/logo-instagram.png);
-    background-size: 29px 29px;
-    width: 35px;
-    height: 35px;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
     background-color: transparent;
-    margin: -17px;
+    margin: -20px;
 }
 
 .ui-icon-facebook:after {
     background-image: url(../imagenes/logo-facebook.png);
-    background-size: 29px 29px;
-    width: 30px;
-    height: 30px;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
     background-color: transparent;
-    margin: -14px;
+    margin: -20px;
 }
 
 .ui-icon-twitter:after {
     background-image: url(../imagenes/logo-twitter.png);
-    background-size: 29px 29px;
-    width: 30px;
-    height: 30px;
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
     background-color: transparent;
-    margin: -14px;
+    margin: -20px;
 }
 
 
