@@ -9,6 +9,7 @@
     <script src="jqm/jquery.mobile-1.4.5.js"></script>
     <link rel="stylesheet" href="jqm/mitema.css">
     <link rel="stylesheet" href="jqm/estilos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Café Martinez</title>
 </head>
 <body>
@@ -33,10 +34,11 @@
 
             <div data-role="header" data-position="fixed" data-theme="c">
                 <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez"></h1>
-                <a href="#menu" class="ui-content"
+                <a href="#menu" class="ui-nodisc-icon hambMenu"
                     data-role="open"
                     data-icon="menu"
                     data-iconpos="notext"
+                    class="ui-nodisc-icon hambMenu"
                 >Abrir panel</a>
             </div>
     
@@ -44,7 +46,7 @@
     <div data-role="main" class="ui-content p0">
         <img src="/imagenes/patron-cafe.png" alt="Patrón de cafeteras" id="bannerHome">
         <div class="textCenter m20">
-            <h1>Nuestro café es único</h1>
+            <h2>Nuestro café es único</h2>
             <p>Seleccionamos la mejor calidad para tu paladar</p>
             <img src="/imagenes/banner-home-cafe-con-leche.png" alt="">
         </div>
@@ -67,6 +69,11 @@
             </div>
         </div>
     </div>
+
+    <div data-role="footer" data-theme="c">
+        <h2>Desarrollo de Apps Multiplataforma</h2>
+    </div>
+
 </div>
     <!--/home-->
 
@@ -90,22 +97,26 @@
 
         <div data-role="header" data-position="fixed" data-theme="c">
             <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez"></h1>
-            <a href="#menu2"
+            <a href="#menu2" 
                 data-role="open"
                 data-icon="menu"
                 data-iconpos="notext"
+                class="ui-nodisc-icon hambMenu"
             >Abrir panel</a>
         </div>
 
+        <!-- ** content tiendas ** -->
         <div data-role="main" class="ui-content p0">
-            <h1 class="textCenter colorGreen">Tiendas</h1>
+            <h2 class="textCenter colorGreen">Tiendas</h2>
             <img src="imagenes/tiendas-cafe-martinez.jpg" alt="Cartel de una tienda de Café Martínez">
             
             <div data-role="collapsible-set"
             data-iconpos="left" 
-            data-collapsed-icon="carat-d" 
-            data-expanded-icon="carat-u"
-            class="m20">
+            data-collapsed-icon="arrowDown" 
+            data-expanded-icon="arrowUp"
+            data-inset="false"
+            data-corners="false"
+            class="m20 collapsibleSet iconBgTiendas">
 
              <div data-role="collapsible" data-collapsed="false" class="collapsible">
                 <h4>Abasto Shopping</h4>
@@ -157,5 +168,96 @@
             </div>
 
         </div>
+
+        <div data-role="footer" data-theme="c">
+            <h2>Desarrollo de Apps Multiplataforma</h2>
+        </div>
+    </div>
+    <!--/tiendas-->
+
+    <!--quienes somos-->
+    <div data-role="page" id="quienessomos">
+        <div data-role="panel" id="menu3" 
+            data-display=”push”
+            data-position-fixed="true">
+            <div class="profile">
+                <img src="imagenes/cafe-menu.png" alt="Icono de un café con leche" class="logoMenu"/>
+            </div>
+
+            <div data-role="controlgroup">
+                <a href="#home" data-role="button">Home</a>
+                <a href="#tiendas" data-role="button">Tiendas</a>
+                <a href="#quienessomos" data-role="button">¿Quiénes somos?</a>
+                <a href="#baristaencasa" data-role="button">Barista en casa</a>
+                <a href="#sumateanosotros" data-role="button">Sumate a nosotros </a>
+            </div>
+        </div>
+
+        <div data-role="header" data-position="fixed" data-theme="c">
+            <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez"></h1>
+            <a href="#menu3"
+                data-role="open"
+                data-icon="menu"
+                data-iconpos="notext"
+                class="ui-nodisc-icon hambMenu"
+            >Abrir panel
+            </a>
+
+        </div>
+            
+            <!-- ** content quienes somos ** -->
+            <div data-role="main" class="ui-content p0">
+
+                <div class="m20">
+                <h2>TOSTADORES Y ELABORADORES DE CAFÉ DESDE 1933</h2>
+                <p>Lo cuidamos desde la selección de sus granos, hasta la taza, 
+                    conservando el amor y el respeto que tenemos por lo que hacemos, 
+                    desde el primer día. Por eso nuestro café es ÚNICO.
+                    A través de nuestro proceso exclusivo de tostación, 
+                    logramos resaltar las notas y características propias de los diferentes granos. 
+                    Un aroma pleno, con notas de chocolate, pan tostado, miel y caramelo y un sabor con cuerpo, 
+                    con un toque de frescura, es lo que hace inconfundible a un Café Martínez, siempre.</p>
+                </div>
+            </div>
+            <div data-role="footer" data-theme="c">
+                <h2>Desarrollo de Apps Multiplataforma</h2>
+            </div>
+    </div>
+    <!--/quienes somos-->
+
+    <!--barista en casa-->
+    <div data-role="page" id="baristaencasa">
+        <div data-role="panel" id="menu4" 
+            data-display=”push”
+            data-position-fixed="true">
+            <div class="profile">
+                <img src="imagenes/cafe-menu.png" alt="Icono de un café con leche" class="logoMenu"/>
+            </div>
+
+            <div data-role="controlgroup">
+                <a href="#home" data-role="button">Home</a>
+                <a href="#tiendas" data-role="button">Tiendas</a>
+                <a href="#quienessomos" data-role="button">¿Quiénes somos?</a>
+                <a href="#baristaencasa" data-role="button">Barista en casa</a>
+                <a href="#sumateanosotros" data-role="button">Sumate a nosotros </a>
+            </div>
+        </div>
+
+        <div data-role="header" data-position="fixed" data-theme="c">
+            <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez"></h1>
+            <a href="#menu4"
+                data-role="open"
+                data-icon="menu"
+                data-iconpos="notext"
+                class="ui-nodisc-icon hambMenu"
+            >Abrir panel
+            </a>
+
+        </div>
+            
+            <!-- ** barista en casa ** -->
+            <div data-role="main" class="ui-content p0">
+
+            </div>
 </body>
 </html>
