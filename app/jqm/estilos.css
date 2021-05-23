@@ -1,7 +1,6 @@
-img{
-    max-width:100%;
-    display: block;
-    margin: 0 auto;
+.ui-content{
+    padding-top: 60px !important;
+    padding-bottom: 80px !important;
 }
 
 #bannerHome{
@@ -11,7 +10,14 @@ img{
 }
 
 .logoHeader{
-    width: 150px;
+    width: 160px;
+    padding: 3px;
+}
+
+img{
+    max-width:100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .textCenter{
@@ -48,28 +54,45 @@ img{
 .ui-collapsible-set .ui-collapsible:not(.ui-collapsible-inset) .ui-collapsible-heading .ui-btn{
     background-color: white;
 }
+.ui-collapsible-content{
+    margin-left: 15px;
+}
 
 .baristaBg{
     border: 1px solid rgba(198, 198, 198, 0.667);
 }
 
+
+/* Tab menu */
+.fixedHeader, .fixedFooter{
+    width: 100%;
+    position: fixed; 
+}
+.fixedHeader{
+    top: 0;
+    background-color: white !important;
+    border: 0;
+    box-shadow: 3px 3px 10px #aaa;
+}
+.fixedFooter{
+    bottom: 0;
+}
+.fixedFooter a{
+    color: black !important;
+
+}
+
 /*Buttons*/
 .btn{
     max-width: 80%;
-    margin: 0 auto
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Menu */
-.logoMenu{
-    width: 60px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.hambMenu{
-    margin: 10px !important;
-    top: -15%;
-    transform: translateY(15%);
+.btnTiendasText{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 0px;
 }
 
 /* Icons */
@@ -106,7 +129,6 @@ img{
     height: 40px;
     margin:-20px;
 }
-
 .ui-icon-cerrar:after {
     background-image: url(../imagenes/baseline_cancel_black_24dp.png);
     background-size: 32px 32px;
@@ -115,6 +137,65 @@ img{
     background-color: transparent;
     margin:-20px;
 }
+.ui-icon-navegar:after {
+    background-image: url(../imagenes/baseline_arrow_back_ios_white_24dp.png);
+    background-size: 32px 32px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    margin: -15px -7px;
+}
+
+.ui-icon-home:after {
+    background-image: url(../imagenes/baseline_home_black_24dp.png);
+    background-size: 29px 29px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    margin-left: -15px;
+    margin-top: -3px;
+}
+
+.ui-icon-tiendas:after {
+    background-image: url(../imagenes/baseline_store_black_24dp.png);
+    background-size: 29px 29px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    margin-left: -15px;
+    margin-top: -3px;
+}
+
+.ui-icon-nosotros:after {
+    background-image: url(../imagenes/baseline_apartment_black_24dp.png);
+    background-size: 29px 29px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    margin-left: -15px;
+    margin-top: -3px;
+}
+
+.ui-icon-enCasa:after {
+    background-image: url(../imagenes/baseline_local_cafe_black_24dp.png);
+    background-size: 27px 27px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    margin-left: -15px;
+    margin-top: -3px;
+}
+
+.ui-icon-sumate:after {
+    background-image: url(../imagenes/baseline_group_add_black_24dp.png);
+    background-size: 29px 29px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    margin-left: -17px;
+    margin-top: -3px;
+}
+
 
 /* Cards */
 
@@ -122,6 +203,7 @@ img{
     background:#fff;
     overflow:hidden;
     box-shadow: 3px 3px 10px #aaa;
+    padding: 20px;
 }
 
 .cardTitle{
