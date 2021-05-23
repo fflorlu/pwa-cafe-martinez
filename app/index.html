@@ -38,16 +38,23 @@
                     data-icon="navegar"
                     data-iconpos="right"
                     class="btnTiendas card m20">
-                    <h3 class="colorGreen btnTiendasText">Encontrá tu Café Martínez más cercano</h3>
+                    <h3 class="colorGreen btnTiendasText">Encontrá el Café Martínez más cercano</h3>
                     </a>
             
-                    <a href="#tiendas" 
+                    <a href="#baristaencasa" 
                     data-role="button"
                     data-icon="navegar"
                     data-iconpos="right"
                     class="btnTiendas card m20">
-                    <h3 class="colorGreen btnTiendasText">Club Café Martínez</h3>
+                    <h3 class="colorGreen btnTiendasText">Barista en casa</h3>
                     </a>
+
+                    <h3 class="textCenter">¡Seguinos en nuestras redes!</h3>
+                    <ul class="ui-grid-b m0">
+                        <li class="ui-block-a"><a href="#"  data-role="button" data-icon="instagram" data-iconpos="notext" class="btnRedes">Instagram</a></li>
+                        <li class="ui-block-b"><a href="#" data-role="button" data-icon="facebook" data-iconpos="notext" class="btnRedes">Facebook</a></li>
+                        <li class="ui-block-c"><a href="#" data-role="button" data-icon="twitter" data-iconpos="notext" class="btnRedes">Twitter</a></li>
+                    </ul>
         </div>
 
         <!--menu-->
@@ -187,16 +194,18 @@
 
     <!--barista en casa-->
     <div data-role="page" id="baristaencasa">
-            
+        <div data-role="header" class="fixedHeader">
+            <img src="/imagenes/cafe-martinez-logo.png" class="logoHeader" alt="Logo de Café Martínez" >
+        </div>
             <!-- ** barista en casa ** -->
-            <div data-role="main" class="ui-content p0">
+            <div data-role="main" class="ui-content p0 m20">
                 <h2 class="textCenter colorGreen">Barista en casa</h2>
-                <p class="textCenter">Descubrí nuestra línea exclusiva para disfrutar en casa. Consegui cada uno
-                    de los productos en nuestras tiendas.</p>
+                <p class="textCenter">Descubrí nuestra línea exclusiva para disfrutar en casa. Consegui
+                    los productos en nuestras tiendas.</p>
 
-                <a href="#cafeEnGrano" data-role="button" data-transition="pop">Café en grano</a>
-                <a href="#capsulas" data-role="button" data-transition="pop">Cápsulas</a>
-                <a href="#comestibles" data-role="button" data-transition="pop">Comestibles</a>
+                <a href="#cafeEnGrano" data-role="button" data-transition="pop"><img src="./imagenes/cafes-molidos.png" alt="Café en grano Brasil" class="btnImg">Café en grano</a>
+                <a href="#capsulas" data-role="button" data-transition="pop"><img src="./imagenes/cafes-capsulas.png" alt="Café en grano Brasil" class="btnImg">Cápsulas</a>
+                <a href="#comestibles" data-role="button" data-transition="pop"><img src="./imagenes/comestibles.png" alt="Café en grano Brasil" class="btnImg">Comestibles</a>
             </div>
         
         <div data-role="footer" data-theme="c" id="menu4">
@@ -216,8 +225,9 @@
     <div data-role="dialog" id="cafeEnGrano" data-close-btn="right" data-icon="cerrar">
         <article role="main" class="ui-content">
             <div data-role="header" data-position="fixed"> 
-                <h2>Café en grano</h2>
+                <img src="/imagenes/cafe-martinez-logo-blanco.png" class="logoHeader" alt="Logo de Café Martínez">
             </div>
+            <h2 class="textCenter dialogTitle">Café en grano</h2>
             <div class="card m20">
                 <img src="/imagenes/cafe_brasil.jpg" alt="Café Brasil" class="cardImg">
                 <h4 class="cardTitle textCenter">Café en grano Brasil</h4>
@@ -296,31 +306,32 @@
     <div data-role="dialog" id="capsulas" data-close-btn="right" data-icon="cerrar">
         <article role="main" class="ui-content">
             <div data-role="header" data-position="fixed"> 
-                <h2>Cápsulas</h2>
+                <img src="/imagenes/cafe-martinez-logo-blanco.png" class="logoHeader" alt="Logo de Café Martínez">
             </div>
+            <h2 class="textCenter dialogTitle">Cápsulas</h2>
             <div class="card m20 textCenter">
-                <img src="/imagenes/capsula_brasil.jpg" alt="Capsulas Brasil" class="cardImg">
+                <img src="./imagenes/capsula_brasil.jpg" alt="Capsulas Brasil" class="cardImg">
                 <h4 class="cardTitle">Cápsulas Brasil compatibles con máquinas Nespresso®</h4>
                 <p>Cápsulas de aluminio compatibles con las máquinas Nespresso* x 10
                     unidades</p>
             </div>
 
             <div class="card m20 textCenter">
-                <img src="/imagenes/capsula_colombia.jpg" alt="Capsulas Colombia" class="cardImg">
+                <img src="./imagenes/capsula_colombia.jpg" alt="Capsulas Colombia" class="cardImg">
                 <h4 class="cardTitle">Cápsulas Colombia compatibles con máquinas Nespresso®</h4>
                 <p>Cápsulas de aluminio compatibles con las máquinas Nespresso* x 10
                     unidades</p>
             </div>
 
             <div class="card m20 textCenter">
-                <img src="/imagenes/capsula_italiano.webp" alt="Capsulas Italiano" class="cardImg">
+                <img src="./imagenes/capsula_italiano.jpg" alt="Capsulas Italiano" class="cardImg">
                 <h4 class="cardTitle">Cápsulas Italiano compatibles con máquinas Nespresso®</h4>
                 <p>Cápsulas de aluminio compatibles con las máquinas Nespresso* x 10
                     unidades</p>
             </div>
 
             <div class="card m20 textCenter">
-                <img src="/imagenes/capsula_moka.jpg" alt="Capsulas Moka" class="cardImg">
+                <img src="./imagenes/capsula_moka.jpg" alt="Capsulas Moka" class="cardImg">
                 <h4 class="cardTitle">Cápsulas Moka compatibles con máquinas Nespresso®</h4>
                 <p>Cápsulas de aluminio compatibles con las máquinas Nespresso* x 10
                     unidades</p>
@@ -332,8 +343,9 @@
     <div data-role="dialog" id="comestibles" data-close-btn="right" data-icon="cerrar">
         <article role="main" class="ui-content">
             <div data-role="header" data-position="fixed"> 
-                <h2>Comestibles</h2>
+                <img src="/imagenes/cafe-martinez-logo-blanco.png" class="logoHeader" alt="Logo de Café Martínez">
             </div>
+            <h2 class="textCenter dialogTitle">Comestibles</h2>
             <div class="card m20">
                 <img src="/imagenes/alfajor_chocolate_blanco.jpg" alt="Alfajor de chocolate blanco" class="cardImg">
                 <h4 class="cardTitle textCenter">Caja alfajores dulce de leche blancos x30</h4>
@@ -352,8 +364,8 @@
             </div>
 
             <div class="card m20">
-                <img src="/imagenes/cafe_colombia.jpg" alt="Café Colombia" class="cardImg">
-                <h4 class="cardTitle textCenter">Café en grano Colombia</h4>
+                <img src="/imagenes/alfajor_chocolate.jpg" alt="Café Colombia" class="cardImg">
+                <h4 class="cardTitle textCenter">Caja alfajores chocolates negros x36</h4>
                 
                 <div data-role="collapsible" 
                 data-collapsed="true" 
@@ -363,15 +375,13 @@
                 data-corners="false"
                 class="m20 collapsibleSet bgBarista textCenter">
                     <h4>Saber más</h4>
-                    <p>Variedad de café en grano Colombia de 1kg de Café Martínez. Pack
-                        reforzado
-                        especialmente para conservar el café.</p>
+                    <p>Caja de alfajores de chocolate x 36 unidades. Alfajores 70% cacao con dulce de leche.</p>
                 </div>
             </div>
 
             <div class="card m20">
-                <img src="/imagenes/cafe_italiano.jpg" alt="Café Colombia" class="cardImg">
-                <h4 class="cardTitle textCenter">Café en grano Italiano</h4>
+                <img src="/imagenes/barra_chocolate.jpg" alt="Café Colombia" class="cardImg">
+                <h4 class="cardTitle textCenter">Barras de cereal con Chips de Chocolate x 20</h4>
                 
                 <div data-role="collapsible" 
                 data-collapsed="true" 
@@ -381,15 +391,14 @@
                 data-corners="false"
                 class="m20 collapsibleSet bgBarista textCenter">
                     <h4>Saber más</h4>
-                    <p>Variedad de café en grano Italiano de 1kg de Café Martínez. Pack
-                        reforzado
-                        especialmente para conservar el café.</p>
+                    <p>Barras de Cereal, Frutos secos y Semillas con chips de chocolate SIN TACC. 
+                        Presentación: caja por 20 unidades</p>
                 </div>
             </div>
 
             <div class="card m20">
-                <img src="/imagenes/cafe_moka.jpg" alt="Café Moka" class="cardImg">
-                <h4 class="cardTitle textCenter">Café en grano Moka</h4>
+                <img src="/imagenes/conito_dulce_de_leche.jpg" alt="Café Moka" class="cardImg">
+                <h4 class="cardTitle textCenter">Caja conitos de dulce de leche x6</h4>
                 
                 <div data-role="collapsible" 
                 data-collapsed="true" 
@@ -399,9 +408,7 @@
                 data-corners="false"
                 class="m20 collapsibleSet bgBarista textCenter">
                     <h4>Saber más</h4>
-                    <p>Variedad de café en grano Moka de 1kg de Café Martínez. Pack
-                        reforzado
-                        especialmente para conservar el café.</p>
+                    <p>Caja de conitos rellenos con dulce de leche x6 unidades</p>
                 </div>
             </div>
         </article>

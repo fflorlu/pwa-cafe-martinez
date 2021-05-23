@@ -62,7 +62,9 @@ img{
     border: 1px solid rgba(198, 198, 198, 0.667);
 }
 
-
+.dialogTitle{
+    margin-top: -25px;
+}
 /* Tab menu */
 .fixedHeader, .fixedFooter{
     width: 100%;
@@ -95,6 +97,20 @@ img{
     margin-left: 0px;
 }
 
+.btnImg{
+    width: 55%;
+}
+
+.btnRedes{
+    height: 60px !important;
+    width: 60px !important;
+   
+}
+.ui-grid-b li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 /* Icons */
 .ui-nodisc-icon{
     border: 0 solid transparent !important;
@@ -196,6 +212,33 @@ img{
     margin-top: -3px;
 }
 
+.ui-icon-instagram:after {
+    background-image: url(../imagenes/logo-instagram.png);
+    background-size: 29px 29px;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    margin: -17px;
+}
+
+.ui-icon-facebook:after {
+    background-image: url(../imagenes/logo-facebook.png);
+    background-size: 29px 29px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    margin: -14px;
+}
+
+.ui-icon-twitter:after {
+    background-image: url(../imagenes/logo-twitter.png);
+    background-size: 29px 29px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    margin: -14px;
+}
+
 
 /* Cards */
 
@@ -207,10 +250,10 @@ img{
 }
 
 .cardTitle{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 900;
 }
 
 .cardImg{
-    width: 60%;
+    width: 50%;
 }
