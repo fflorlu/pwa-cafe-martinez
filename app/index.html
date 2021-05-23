@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,7 +34,7 @@
 
             <div data-role="header" data-position="fixed" data-theme="c">
                 <h1><img src="/imagenes/cafe-martinez-logo-blanco.png" alt="Logo de Café Martínez"></h1>
-                <a href="#menu" class="ui-nodisc-icon hambMenu"
+                <a href="#menu"
                     data-role="open"
                     data-icon="menu"
                     data-iconpos="notext"
@@ -55,7 +55,7 @@
             <h3>Los mejores granos de café del mercado</h3>
             <img src="/imagenes/cafe-banner-proceso.png" alt="Banner mostrando el proceso del café">
             
-            <h3 class="colorGreen">Encontrá tu Café Martínez más cercano</h2>
+            <h3 class="colorGreen">Encontrá tu Café Martínez más cercano</h3>
             <a href="#tiendas" data-role="button" data-theme="c" class="btn">Ver tiendas</a>
         </div>
         
@@ -209,7 +209,7 @@
             <div data-role="main" class="ui-content p0">
 
                 <div class="m20">
-                <h2>TOSTADORES Y ELABORADORES DE CAFÉ DESDE 1933</h2>
+                <h2 class="textCenter">TOSTADORES Y ELABORADORES DE CAFÉ DESDE 1933</h2>
                 <p>Lo cuidamos desde la selección de sus granos, hasta la taza, 
                     conservando el amor y el respeto que tenemos por lo que hacemos, 
                     desde el primer día. Por eso nuestro café es ÚNICO.
@@ -257,7 +257,94 @@
             
             <!-- ** barista en casa ** -->
             <div data-role="main" class="ui-content p0">
+                <h2 class="textCenter colorGreen">Barista en casa</h2>
+                <p class="textCenter">Descubrí nuestra línea exclusiva para disfrutar en casa. Consegui cada uno
+                    de los
+                    productos en nuestras
+                    tiendas.</p>
 
+                <a href="#cafeEnGrano" data-role="button" data-transition="pop">Café en grano</a>
             </div>
+        </div>
+
+    <!-- ** dialog cafe en grano **-->
+    <div data-role="dialog" id="cafeEnGrano" data-close-btn="right" data-icon="cerrar">
+        <article role="main" class="ui-content">
+            <div data-role="header" data-position="fixed" class="header"> 
+                <h2>Café en grano</h2>
+            </div>
+            <div class="card m20">
+                <img src="/imagenes/cafe_brasil.jpg" alt="Café Brasil" class="cardImg">
+                <h4 class="cardTitle textCenter">Café en grano Brasil</h4>
+                
+                <div data-role="collapsible" 
+                data-collapsed="true" 
+                data-collapsed-icon="arrowDown" 
+                data-expanded-icon="arrowUp"
+                data-inset="false"
+                data-corners="false"
+                class="m20 collapsibleSet bgBarista textCenter">
+                    <h4>Saber más</h4>
+                    <p>Variedad de café en grano Brasil de 1kg de Café Martínez. Pack
+                        reforzado
+                        especialmente para conservar el café.</p>
+                  </div>
+            </div>
+
+            <div class="card m20">
+                <img src="/imagenes/cafe_colombia.jpg" alt="Café Colombia" class="cardImg">
+                <h4 class="cardTitle textCenter">Café en grano Colombia</h4>
+                
+                <div data-role="collapsible" 
+                data-collapsed="true" 
+                data-collapsed-icon="arrowDown" 
+                data-expanded-icon="arrowUp"
+                data-inset="false"
+                data-corners="false"
+                class="m20 collapsibleSet bgBarista textCenter">
+                    <h4>Saber más</h4>
+                    <p>Variedad de café en grano Colombia de 1kg de Café Martínez. Pack
+                        reforzado
+                        especialmente para conservar el café.</p>
+                </div>
+            </div>
+
+            <div class="card m20">
+                <img src="/imagenes/cafe_italiano.jpg" alt="Café Colombia" class="cardImg">
+                <h4 class="cardTitle textCenter">Café en grano Italiano</h4>
+                
+                <div data-role="collapsible" 
+                data-collapsed="true" 
+                data-collapsed-icon="arrowDown" 
+                data-expanded-icon="arrowUp"
+                data-inset="false"
+                data-corners="false"
+                class="m20 collapsibleSet bgBarista textCenter">
+                    <h4>Saber más</h4>
+                    <p>Variedad de café en grano Italiano de 1kg de Café Martínez. Pack
+                        reforzado
+                        especialmente para conservar el café.</p>
+                </div>
+            </div>
+
+            <div class="card m20">
+                <img src="/imagenes/cafe_moka.jpg" alt="Café Moka" class="cardImg">
+                <h4 class="cardTitle textCenter">Café en grano Moka</h4>
+                
+                <div data-role="collapsible" 
+                data-collapsed="true" 
+                data-collapsed-icon="arrowDown" 
+                data-expanded-icon="arrowUp"
+                data-inset="false"
+                data-corners="false"
+                class="m20 collapsibleSet bgBarista textCenter">
+                    <h4>Saber más</h4>
+                    <p>Variedad de café en grano Moka de 1kg de Café Martínez. Pack
+                        reforzado
+                        especialmente para conservar el café.</p>
+                </div>
+            </div>
+        </article>
+    </div>
 </body>
 </html>
