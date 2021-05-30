@@ -32,7 +32,7 @@ h3 {
 
 /*Bg-color*/
 .bg-green {
-    background-color: #F1F9F6;
+    background-color: #E9F6F1;
 }
 
 .bg-gray {
@@ -63,14 +63,28 @@ h3 {
     left: calc(50% - 67px);
 }
 
-
-
 #menusinprecio {
     background-image: url(../imagenes/menu.jpg);
     background-position-x: center;
     background-size: cover;
-    background-position-y: center;
+    background-position-y: bottom;
     background-repeat: no-repeat;
+}
+
+#patronmenu{
+    background-image: url(../imagenes/patron.png);
+    background-position-x: center;
+    background-size: cover;
+    background-position-y: bottom;
+    background-repeat: no-repeat; 
+}
+
+#patronneg{
+    background-image: url(../imagenes/patron_neg.png);
+    background-position-x: center;
+    background-size: 1200px;
+    background-position-y: bottom;
+    background-repeat: no-repeat; 
 }
 
 .bg-header {
@@ -83,13 +97,22 @@ h3 {
 }
 
 /*Nanvarend*/
+hr{
+    border: 2px solid;
+    width: 160px;
+    border-color: #132826!important;
+    opacity: 1;
+    margin: auto;
+}
+
 .h100 {
-    min-height: 100vh;
+    min-height: auto;
 }
 
 .aling-center {
     display: table-cell;
-    vertical-align: middle
+    width: inherit;
+    vertical-align: middle;
 }
 
 .card {
@@ -97,11 +120,16 @@ h3 {
     padding: 20px;
     margin: 8px;
     box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
 }
 
 .card-producto {
     border: none;
     max-width: 100%;
+}
+
+.card-title {
+    margin-bottom: 0rem;
 }
 
 img {
@@ -151,6 +179,10 @@ h2 {
     float: left;
 }
 
+.menu-section {
+    height: 25vh;
+}
+
 /* LINKS */
 a {
     font-weight: 600;
@@ -165,6 +197,10 @@ a:visited {
     color: rgb(21, 21, 21);
 }
 
+a.card-link:hover{
+    color: #39846e;
+}
+
 /*Buttons*/
 .btn-collapse {
     font-weight: 500;
@@ -176,12 +212,41 @@ a:visited {
     font-size: calc(1.3rem + 0.6vw);
 }
 
+.btn-primario {
+    color: #fff!important;
+    border: 1px solid #fff!important;
+    padding: 15px;
+    border-radius: 0.5rem;
+    background-color: #39846e;
+    font-size: 20px;
+}
+
+.btn-primario:hover {
+    color: #fff!important;
+    border: 1px solid #fff!important;
+    padding: 15px;
+    border-radius: 0.5rem;
+    background-color: #24614F;
+    font-size: 20px;
+}
+
 a.btn-fantasma {
-    color: #fff;
+    color: #fff!important;
+    border: 1px solid #fff!important;
+    padding: 15px;
+    border-radius: 0.5rem;
+    font-size: 20px;
+}
+
+a.btn-fantasma:hover {
+    color: #212529!important;
     border: 1px solid #fff;
     padding: 15px;
     border-radius: 0.5rem;
+    background-color: #fff;
+    font-size: 20px;
 }
+
 
 /*Tabs*/
 .nav-tab-bottom {
@@ -234,9 +299,7 @@ footer li {
     color: white;
 }
 
-.card-title {
-    margin-bottom: 0rem;
-}
+
 
 @media (min-width: 768px) {
     .logo-store {
@@ -274,18 +337,18 @@ footer li {
     }
 
     #clubMartinez {
-        background-image: url(../imagenes/bg-mano.png);
+        background-image: url(../imagenes/empleados.jpg);
         background-position-x: center;
-        background-size: contain;
+        background-size: cover;
         background-position-y: bottom;
         background-repeat: no-repeat;
     }
 
-    #quienesSomos {
+    #quienessomos {
         background-image: url(../imagenes/bg-section-2.png);
-        background-position-x: center;
+        background-position-x: left;
+        background-position-y: center;
         background-size: contain;
-        background-position-y: bottom;
         background-repeat: no-repeat;
     }
 }

@@ -60,10 +60,10 @@
                             <a class="nav-link" href="#quienessomos">¿Quiénes somos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#baristaencasa">Barista en casa</a>
+                            <a class="nav-link" href="#sumate">Sumate a nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#sumate">Sumate a nosotros</a>
+                            <a class="nav-link" href="#baristaencasa">Barista en casa</a>
                         </li>
                     </ul>
                 </div>
@@ -82,8 +82,12 @@
                 <div class="col-12 col-md-6 p-0 d-none d-sm-none d-md-block">
                     <div class="p-5 justify-content-center aling-center h100">
                         <h1 class="text-center fw-bold">Nuestro café es único</h1>
-                        <div class="align-items-center">
+                        <hr class="mt-3 mb-3">
+                        <div class="text-center">
                             <p class="subtitulo mt-5">Seleccionamos la mejor calidad para tu paladar</p>
+                            <a href="#baristaencasa" class="btn btn-primario mt-5">
+                                Conoce nuestros productos
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -101,6 +105,7 @@
     <!-- content tiendas  -->
     <section class="container-fluid bg-green h100 p-3 p-md-5" id="tiendas">
         <h2 class="text-center fw-bold">Nuestras Tiendas</h2>
+        <hr class="mt-3 mb-3">
         <div class="d-none d-sm-none d-md-block mt-5">
             <div class="row justify-content-center p-4 p-md-0">
                 <div class="card col-12 col-md">
@@ -335,7 +340,9 @@
             <div class="col-12 p-0 d-block d-sm-none">
                 <img src="imagenes/menu.jpg" alt="menu banner">
             </div>
-            <div class="p-4 p-md-5 col-12 col-md-6 bg-dark justify-content-center text-center">
+            <div id="patronmenu"
+                class="menu-section p-4 p-md-5 col-12 col-md-6 bg-dark justify-content-center text-center">
+                <h3 class="white-font mb-5">Te invitamos a disfrutar la mejor experiencia de café</h3>
                 <a class="btn-fantasma" role="button" href="imagenes/MENUSINPRECIO.pdf" download="proposed_file_name">
                     Descargar nuestro menu
                 </a>
@@ -344,7 +351,7 @@
     </section>
 
     <!-- content quienes somos -->
-    <section id="quienesSomos">
+    <section id="quienessomos">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-md-6 p-0 d-block d-sm-none">
@@ -354,6 +361,7 @@
                 <div class="col-12 col-md-6 p-0 ">
                     <div class="p-5 justify-content-center aling-center h100">
                         <h2 class="text-center fw-bold">¿Quiénes somos?</h2>
+                        <hr class="mt-3 mb-3">
                         <div class="align-items-center mt-5">
                             <h3>TOSTADORES Y ELABORADORES DE CAFÉ DESDE 1933</h3>
                             <p class="text-left">Desde 1933 tostamos nuestro propio café.
@@ -374,25 +382,24 @@
         </div>
     </section>
 
-    <!--Content club martinez-->
+    <!--Content sumate a nosotros-->
 
-    <section id="clubMartinez" class="container-fluid h100 bg-green">
+    <section class="container-fluid h100 bg-green" id="sumate">
         <div class="row">
-            <div class="col-6 col-md-none d-sm-none d-md-block"></div>
+            <div id="clubMartinez" class="col-6 col-md-none d-sm-none d-md-block"></div>
             <div class="col-12 p-0 d-block d-sm-none">
-                <img src="imagenes/bg-mano-mobile.png" alt="mano con celular">
+                <img src="imagenes/empleados.jpg" alt="empleados cafe martinez">
             </div>
-            <div class="col-12 col-md-6">
-                <div class="p-0 p-md-5 justify-content-center aling-center h100">
-                    <h2 class="text-center fw-bold mt-5 mt-md-0">Club Cafe Martinez</h2>
-                    <p class="subtitulo mt-5 bold">Subtitulo</p>
-                    <p class="text-left">Descarga nuestra APP, regístrate y gana por disfrutar.
-                        También podes hacer tu pedido de cafetería a la sucursal más cercana a través de nuestra APP
-                        para delivery o retiro en tienda.</p>
-                    <div class="d-flex mt-5 mb-3 mb-md-0">
-                        <img src="imagenes/appstore.png" class="logo-store" alt="apple store">
-                        <img src="imagenes/playstore.png" class="logo-store" alt="play store">
-                    </div>
+            <div id="patronneg" class="col-12 col-md-6">
+                <div class="p-5 justify-content-center aling-center h100 text-center">
+                    <h2 class="text-center fw-bold mt-5 mt-md-0">¡Sumate a nuestro equipo!</h2>
+                    <hr class="mt-3 mb-3">
+                    <p class="text-left mt-5">Si queres trabajar con nosotros dejanos tus datos para ponernos en
+                        contacto con vos</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfLZX2iV4ENiR5f4RGeb5DF2UfGcGz4uv9TkYmT5206rAN81A/viewform"
+                        class="btn btn-primario mt-5">
+                        Cargá tu CV
+                    </a>
                 </div>
             </div>
         </div>
@@ -400,6 +407,7 @@
     <!-- content barista en casa -->
     <section class="container mt-5" id="baristaencasa">
         <h2 class="text-center fw-bold">Barista en casa</h2>
+        <hr class="mt-3 mb-3">
         <p class="text-left text-md-center">Descubrí nuestra línea exclusiva para disfrutar en casa. Consegui cada uno
             de los
             productos en nuestras
@@ -542,6 +550,19 @@
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        const btns = document.querySelectorAll('.nav-item')
+        const menu = document.querySelector(".navbar-collapse")
+        const cierre = new bootstrap.Collapse(menu, {
+            toggle: false
+        })
+        btns.forEach((btn) => {
+            btn.addEventListener('click', () => {
+                cierre.toggle()
+            })
+        })
+    </script>
 
 </body>
 
